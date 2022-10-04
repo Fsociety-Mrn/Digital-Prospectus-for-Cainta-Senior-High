@@ -1,0 +1,39 @@
+ Public Class Ict
+
+ Private MAX_PAGE_COUNT As Integer = 1
+  
+Private pageNumber As Integer
+////////////////////////////
+ Me.pageNumber = 2
+     
+ Me.PrintDocument1.Print()
+
+Private Sub printPreviewButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+
+        
+Me.pageNumber = 2
+
+        
+Me.PrintPreviewDialog1.ShowDialog()
+
+    
+End Sub
+
+////////////////////////
+
+If Me.pageNumber = MAX_PAGE_COUNT Then
+(Dims etc.)          
+e.HasMorePages = False
+
+
+Me.pageNumber = 2
+
+        
+Else
+
+e.HasMorePages = True
+
+Me.pageNumber = 1
+
+        
+End If
