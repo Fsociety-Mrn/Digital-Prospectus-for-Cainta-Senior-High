@@ -52,7 +52,7 @@ Partial Class STRANDS
         Me.Button7.ForeColor = System.Drawing.Color.White
         Me.Button7.Image = CType(resources.GetObject("Button7.Image"), System.Drawing.Image)
         Me.Button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button7.Location = New System.Drawing.Point(426, 283)
+        Me.Button7.Location = New System.Drawing.Point(426, 135)
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(245, 42)
         Me.Button7.TabIndex = 39
@@ -70,7 +70,7 @@ Partial Class STRANDS
         Me.Button6.ForeColor = System.Drawing.Color.White
         Me.Button6.Image = CType(resources.GetObject("Button6.Image"), System.Drawing.Image)
         Me.Button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button6.Location = New System.Drawing.Point(426, 209)
+        Me.Button6.Location = New System.Drawing.Point(91, 212)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(245, 42)
         Me.Button6.TabIndex = 40
@@ -88,7 +88,7 @@ Partial Class STRANDS
         Me.Button5.ForeColor = System.Drawing.Color.White
         Me.Button5.Image = CType(resources.GetObject("Button5.Image"), System.Drawing.Image)
         Me.Button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button5.Location = New System.Drawing.Point(426, 135)
+        Me.Button5.Location = New System.Drawing.Point(91, 283)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(245, 42)
         Me.Button5.TabIndex = 41
@@ -106,7 +106,7 @@ Partial Class STRANDS
         Me.Button4.ForeColor = System.Drawing.Color.White
         Me.Button4.Image = CType(resources.GetObject("Button4.Image"), System.Drawing.Image)
         Me.Button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button4.Location = New System.Drawing.Point(91, 357)
+        Me.Button4.Location = New System.Drawing.Point(426, 212)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(245, 42)
         Me.Button4.TabIndex = 42
@@ -124,7 +124,7 @@ Partial Class STRANDS
         Me.Button3.ForeColor = System.Drawing.Color.White
         Me.Button3.Image = CType(resources.GetObject("Button3.Image"), System.Drawing.Image)
         Me.Button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button3.Location = New System.Drawing.Point(91, 283)
+        Me.Button3.Location = New System.Drawing.Point(426, 283)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(245, 42)
         Me.Button3.TabIndex = 43
@@ -160,7 +160,7 @@ Partial Class STRANDS
         Me.Button2.ForeColor = System.Drawing.Color.White
         Me.Button2.Image = CType(resources.GetObject("Button2.Image"), System.Drawing.Image)
         Me.Button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button2.Location = New System.Drawing.Point(91, 209)
+        Me.Button2.Location = New System.Drawing.Point(91, 357)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(245, 42)
         Me.Button2.TabIndex = 45

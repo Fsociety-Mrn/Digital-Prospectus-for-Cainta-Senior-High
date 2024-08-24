@@ -4,17 +4,17 @@
   <description asmv2:publisher="Prospectuss" asmv2:product="Prospectuss" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <deployment install="true" mapFileExtensions="true" />
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
-    <framework targetVersion="4.5" profile="Full" supportedRuntime="4.0.30319" />
+    <framework targetVersion="4.8" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Prospectuss.exe.manifest" size="6063">
+    <dependentAssembly dependencyType="install" codebase="Prospectuss.exe.manifest" size="6085">
       <assemblyIdentity name="Prospectuss.exe" version="1.0.0.14" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>BT9zpvDPkh71GhdCeGl5GlP5e1n+2+kA7MgrB0TKnSI=</dsig:DigestValue>
+        <dsig:DigestValue>E/WYGBR3Y/ZBsOuIv8r8ZQ2vadaIbORFG88EDVMqCTU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

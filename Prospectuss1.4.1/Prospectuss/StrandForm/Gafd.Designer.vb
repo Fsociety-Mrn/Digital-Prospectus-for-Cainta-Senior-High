@@ -240,7 +240,7 @@ Partial Class Gafd
         Me.Button10.Name = "Button10"
         Me.Button10.Size = New System.Drawing.Size(519, 59)
         Me.Button10.TabIndex = 875
-        Me.Button10.Text = "          Please check the  box if you already take the subjects and put the grad" & _
+        Me.Button10.Text = "          Please check the  box if you already take the subjects and put the grad" &
     "es on the box provided"
         Me.Button10.UseVisualStyleBackColor = False
         '
@@ -1523,7 +1523,7 @@ Partial Class Gafd
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(958, 30)
         Me.Label12.TabIndex = 882
-        Me.Label12.Text = "_________________________________________________________________________________" & _
+        Me.Label12.Text = "_________________________________________________________________________________" &
     "________________________"
         '
         'CheckBox29
@@ -1773,7 +1773,6 @@ Partial Class Gafd
         Me.Controls.Add(Me.Label20)
         Me.Controls.Add(Me.TextBox61)
         Me.Controls.Add(Me.Label19)
-        Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Label18)
         Me.Controls.Add(Me.Label17)
         Me.Controls.Add(Me.Label16)
@@ -1868,6 +1867,7 @@ Partial Class Gafd
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.Panel2)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "Gafd"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen

@@ -17,12 +17,22 @@
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
-        Elect.Show()
+        Dim CurrciculumForm As New Curriculum_Form()
+        CurrciculumForm.Parameter = "ELECT"
+        CurrciculumForm.MyLabel = "Electrical"
+        CurrciculumForm.Show()
+
+
         Me.Hide()
     End Sub
 
     Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
-        Ict.Show()
+        ' Create an instance of Ict with the parameter "ICT"
+        Dim CurrciculumForm As New Curriculum_Form()
+        CurrciculumForm.Parameter = "ICT"
+        CurrciculumForm.MyLabel = "Information Communication Technology"
+        CurrciculumForm.Show()
+
         Me.Hide()
     End Sub
 
@@ -72,7 +82,5 @@
         Me.Hide()
     End Sub
 
-    Private Sub Button12_Click(sender As Object, e As EventArgs)
-        Ict.Show()
-    End Sub
+
 End Class

@@ -11,7 +11,7 @@
     <AssemblyName>Prospectuss</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
@@ -28,6 +28,7 @@
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -106,83 +107,86 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Abm.Designer.vb">
+    <Compile Include="Settings\PrintSettings.vb" />
+    <Compile Include="Settings\Settings.vb" />
+    <Compile Include="StrandForm\Abm.Designer.vb">
       <DependentUpon>Abm.vb</DependentUpon>
     </Compile>
-    <Compile Include="Abm.vb">
+    <Compile Include="StrandForm\Abm.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="About.Designer.vb">
+    <Compile Include="StrandForm\About.Designer.vb">
       <DependentUpon>About.vb</DependentUpon>
     </Compile>
-    <Compile Include="About.vb">
+    <Compile Include="StrandForm\About.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Background.Designer.vb">
+    <Compile Include="StrandForm\Background.Designer.vb">
       <DependentUpon>Background.vb</DependentUpon>
     </Compile>
-    <Compile Include="Background.vb">
+    <Compile Include="StrandForm\Background.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Bap.Designer.vb">
+    <Compile Include="StrandForm\Bap.Designer.vb">
       <DependentUpon>Bap.vb</DependentUpon>
     </Compile>
-    <Compile Include="Bap.vb">
+    <Compile Include="StrandForm\Bap.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Elect.Designer.vb">
+    <Compile Include="StrandForm\Elect.Designer.vb">
       <DependentUpon>Elect.vb</DependentUpon>
     </Compile>
-    <Compile Include="Elect.vb">
+    <Compile Include="StrandForm\Elect.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.vb">
+    <Compile Include="StrandForm\Form1.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
+    <Compile Include="StrandForm\Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Gafd.Designer.vb">
+    <Compile Include="StrandForm\Gafd.Designer.vb">
       <DependentUpon>Gafd.vb</DependentUpon>
     </Compile>
-    <Compile Include="Gafd.vb">
+    <Compile Include="StrandForm\Gafd.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Gas.Designer.vb">
+    <Compile Include="StrandForm\Gas.Designer.vb">
       <DependentUpon>Gas.vb</DependentUpon>
     </Compile>
-    <Compile Include="Gas.vb">
+    <Compile Include="StrandForm\Gas.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Helpp.Designer.vb">
+    <Compile Include="StrandForm\Helpp.Designer.vb">
       <DependentUpon>Helpp.vb</DependentUpon>
     </Compile>
-    <Compile Include="Helpp.vb">
+    <Compile Include="StrandForm\Helpp.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Humss.Designer.vb">
+    <Compile Include="StrandForm\Humss.Designer.vb">
       <DependentUpon>Humss.vb</DependentUpon>
     </Compile>
-    <Compile Include="Humss.vb">
+    <Compile Include="StrandForm\Humss.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Ict.Designer.vb">
-      <DependentUpon>Ict.vb</DependentUpon>
+    <Compile Include="Curriculum_Form.Designer.vb">
+      <DependentUpon>Curriculum_Form.vb</DependentUpon>
     </Compile>
-    <Compile Include="Ict.vb">
+    <Compile Include="Curriculum_Form.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Motive.Designer.vb">
+    <Compile Include="StrandForm\Motive.Designer.vb">
       <DependentUpon>Motive.vb</DependentUpon>
     </Compile>
-    <Compile Include="Motive.vb">
+    <Compile Include="StrandForm\Motive.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -194,48 +198,48 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="STRANDS.Designer.vb">
+    <Compile Include="StrandForm\STRANDS.Designer.vb">
       <DependentUpon>STRANDS.vb</DependentUpon>
     </Compile>
-    <Compile Include="STRANDS.vb">
+    <Compile Include="StrandForm\STRANDS.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Abm.resx">
+    <EmbeddedResource Include="StrandForm\Abm.resx">
       <DependentUpon>Abm.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="About.resx">
+    <EmbeddedResource Include="StrandForm\About.resx">
       <DependentUpon>About.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Background.resx">
+    <EmbeddedResource Include="StrandForm\Background.resx">
       <DependentUpon>Background.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Bap.resx">
+    <EmbeddedResource Include="StrandForm\Bap.resx">
       <DependentUpon>Bap.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Elect.resx">
+    <EmbeddedResource Include="StrandForm\Elect.resx">
       <DependentUpon>Elect.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
+    <EmbeddedResource Include="StrandForm\Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Gafd.resx">
+    <EmbeddedResource Include="StrandForm\Gafd.resx">
       <DependentUpon>Gafd.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Gas.resx">
+    <EmbeddedResource Include="StrandForm\Gas.resx">
       <DependentUpon>Gas.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Helpp.resx">
+    <EmbeddedResource Include="StrandForm\Helpp.resx">
       <DependentUpon>Helpp.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Humss.resx">
+    <EmbeddedResource Include="StrandForm\Humss.resx">
       <DependentUpon>Humss.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Ict.resx">
-      <DependentUpon>Ict.vb</DependentUpon>
+    <EmbeddedResource Include="Curriculum_Form.resx">
+      <DependentUpon>Curriculum_Form.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Motive.resx">
+    <EmbeddedResource Include="StrandForm\Motive.resx">
       <DependentUpon>Motive.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -244,7 +248,7 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="STRANDS.resx">
+    <EmbeddedResource Include="StrandForm\STRANDS.resx">
       <DependentUpon>STRANDS.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
@@ -262,13 +266,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Prospectuss_TemporaryKey.pfx" />
+    <None Include="StrandForm\Prospectuss_TemporaryKey.pfx" />
     <None Include="Resources\Business_50px.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Double-J-Design-Origami-Colored-Pencil-Blue-ok.ico" />
+    <Content Include="StrandForm\Double-J-Design-Origami-Colored-Pencil-Blue-ok.ico" />
     <Content Include="Graphicloads-Colorful-Long-Shadow-Check-3.ico" />
-    <Content Include="Igh0zt-Ios7-Style-Metro-Ui-MetroUI-Google-Calendar.ico" />
+    <Content Include="StrandForm\Igh0zt-Ios7-Style-Metro-Ui-MetroUI-Google-Calendar.ico" />
     <None Include="Resources\SCHOOL.jpg" />
     <None Include="Resources\Collapse Arrow_25px111.png" />
     <None Include="Resources\Expand Arrow_25px111.png" />
@@ -303,6 +307,7 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
