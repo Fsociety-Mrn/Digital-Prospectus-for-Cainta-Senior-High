@@ -436,7 +436,6 @@ Public Class Gas
 
 
 
-
         If Me.pageNumber = MAX_PAGE_COUNT Then
 
             Dim a As Bitmap = My.Resources.even_lower_res 'Left CSHS

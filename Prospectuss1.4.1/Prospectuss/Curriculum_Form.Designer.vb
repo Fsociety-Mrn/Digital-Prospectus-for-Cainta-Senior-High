@@ -2218,6 +2218,7 @@ Partial Class Curriculum_Form
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DarkSlateGray
         Me.ClientSize = New System.Drawing.Size(943, 703)
+        Me.Controls.Add(Me.AppliedSubjects)
         Me.Controls.Add(Me.CoreSubject)
         Me.Controls.Add(Me.RadioButton4)
         Me.Controls.Add(Me.RadioButton3)
@@ -2254,7 +2255,6 @@ Partial Class Curriculum_Form
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.AppliedSubjects)
         Me.Controls.Add(Me.MajorICT)
         Me.Controls.Add(Me.MajorElectrical)
         Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))

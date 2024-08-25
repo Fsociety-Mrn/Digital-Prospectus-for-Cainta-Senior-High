@@ -17,31 +17,33 @@ Public Class PrintSettings
     End Sub
 
     '' Show Header
-    Public Sub DrawHeader(e As Printing.PrintPageEventArgs, BOX As Rectangle(), font As Font(), currciculum As String)
+    Public Sub DrawHeader(e As Printing.PrintPageEventArgs, BOX As Rectangle(), font As Font(), currciculum As String, Optional yPos As Integer() = Nothing)
+        ' Check if yPos is Nothing (not provided)
+        If yPos Is Nothing Then
+            ' Initialize with default values
+            yPos = New Integer() {220, 215, 233, 218}
+        End If
 
         e.Graphics.DrawRectangle(Pens.Black, BOX(0))
         e.Graphics.DrawRectangle(Pens.Black, BOX(1))
         e.Graphics.DrawRectangle(Pens.Black, BOX(2))
         e.Graphics.DrawRectangle(Pens.Black, BOX(3))
-        e.Graphics.DrawString("              Senior High School " + vbNewLine + currciculum, font(0), Brushes.Black, 60, 220)
-        e.Graphics.DrawString("T I M E", font(1), Brushes.Black, 480, 220)
-        e.Graphics.DrawLine(Pens.Black, 395, 215, 395, 1245) 'Line to First Box to Third Box
-        e.Graphics.DrawLine(Pens.Black, 739, 215, 739, 259) ' basta line sa time
-        e.Graphics.DrawString("   Quarter       Final", font(0), Brushes.Black, 650, 215)
-        e.Graphics.DrawLine(Pens.Black, 695, 239, 695, 259) ' basta line din sya sa lien sa time
-        e.Graphics.DrawString("  1st     2nd   Grade", font(0), Brushes.Black, 650, 233)
-        e.Graphics.DrawString(" Semester   Semester ", font(2), Brushes.Black, 650, 248)
-        e.Graphics.DrawString("___________", font(0), Brushes.Black, 650, 218) ' naghahati sa quarter at 1st at second
+        e.Graphics.DrawString("              Senior High School " + vbNewLine + currciculum, font(0), Brushes.Black, 60, yPos(0))
+        e.Graphics.DrawString("T I M E", font(1), Brushes.Black, 480, yPos(0))
+        e.Graphics.DrawString("   Quarter       Final", font(0), Brushes.Black, 650, yPos(1))
+        e.Graphics.DrawString("  1st     2nd   Grade", font(0), Brushes.Black, 650, yPos(2))
+        e.Graphics.DrawString("___________", font(0), Brushes.Black, 650, yPos(3)) ' naghahati sa quarter at 1st at second
 
 
     End Sub
-    Public Sub DrawCourse(e As Printing.PrintPageEventArgs, checkBox As CheckBox, textBox1 As TextBox, textBox2 As TextBox, label As String, yPos As Integer, font1 As Font)
+    Public Sub DrawCourse(e As Printing.PrintPageEventArgs, checkBox As CheckBox, textBox1 As TextBox, textBox2 As TextBox, label As String, yPos As Integer, font1 As Font, plus As Integer)
         Dim values As String() = {textBox1.Text, textBox2.Text}
         Dim positions As Integer() = {700, 655}
         Dim xPos As Integer = 60
 
+
         e.Graphics.DrawString(label, font1, Brushes.Black, xPos, yPos)
-        e.Graphics.DrawString("_____________  |  _____________", font1, Brushes.Black, 405, yPos)
+        e.Graphics.DrawString("_____________  |  _____________", font1, Brushes.Black, 405, yPos + plus)
 
         If checkBox.Checked Then
             For i As Integer = 0 To 1
@@ -52,7 +54,7 @@ Public Class PrintSettings
 
             If Not String.IsNullOrEmpty(textBox1.Text) AndAlso Not String.IsNullOrEmpty(textBox2.Text) Then
                 Dim avg As Integer = (CInt(textBox1.Text) + CInt(textBox2.Text)) / 2
-                e.Graphics.DrawString("               T   A    K    E    N", font1, Brushes.Black, 405, yPos)
+                e.Graphics.DrawString("               T   A    K    E    N", font1, Brushes.Black, 405, yPos + plus)
                 e.Graphics.DrawString(avg, font1, Brushes.Black, 755, yPos)
             End If
         End If

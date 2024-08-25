@@ -9,6 +9,7 @@ Public Class Curriculum_Form
     Private Major As Panel
     Public Parameter As String
     Public MyLabel As String
+    Private Major_Curriculum As (CheckBox, TextBox, TextBox, String, Integer, Integer)()
 
 
     Private Sub Load_major()
@@ -16,6 +17,15 @@ Public Class Curriculum_Form
 
             Case "ICT"
                 Major = MajorICT
+                Major_Curriculum = {
+                    (CheckBox23, TextBox27, TextBox54, "   • Computer Programming (Oracle)", 980, 0),
+                    (CheckBox24, TextBox28, TextBox55, "  • Computer Programming (.Net)", 1000, 0),
+                    (CheckBox25, TextBox29, TextBox56, "  • Computer Programming (Java)", 1020, 0),
+                    (CheckBox26, TextBox45, TextBox46, "   • Animation", 1040, 0),
+                    (CheckBox26, TextBox58, TextBox57, "   • Computer Systems Servicing", 1060, 0),
+                    (CheckBox27, TextBox60, TextBox59, "   • Broadband Installation" + vbNewLine + "     (Fixed Wireless Systems)", 1080, 20)
+                }
+
             Case "ELECT"
                 Major = MajorElectrical
 
@@ -271,21 +281,25 @@ Public Class Curriculum_Form
 
     '' Print setup
     Private Sub PrintDocument1_PrintPage(sender As Object, e As Printing.PrintPageEventArgs) Handles PrintDocument1.PrintPage
+
         Dim a As Bitmap = My.Resources.even_lower_res 'Left CSHS
         Dim b As Bitmap = My.Resources.DEPED 'Right DEPED
         Dim c As Bitmap = My.Resources.SCHOOL 'Background Images
-        Dim r As New Rectangle(730, 20, 60, 60) 'Left CSHS
-        Dim rr As New Rectangle(80, 20, 60, 60) 'Right DEPED
-        Dim rrr As New Rectangle(30, 250, 800, 800) 'Background Images
+        Dim r As New Rectangle(720, 30, 70, 70) 'Left CSHS
+        Dim rr As New Rectangle(80, 30, 70, 70) 'Right DEPED
+        Dim rrr As New Rectangle(25, 300, 800, 800) 'Background Images
 
-        Dim BOX As New Rectangle(51, 215, 744, 1030) 'WHOLE BOX
+        Dim BOX As New Rectangle(51, 215, 744, 1075) 'WHOLE BOX
         Dim h1box As New Rectangle(51, 215, 744, 44) 'FIRST BOX
         Dim h2box As New Rectangle(51, 710, 744, 44) 'SECOND BOX
         Dim h3box As New Rectangle(51, 920, 744, 44) 'THIRD BOX
-        Dim V1box As New Rectangle(650, 215, 145, 1030) 'first Vertical Box
+        Dim h3bbox As New Rectangle(51, 964, 599, 44) 'Humms I BOX
+
+        Dim V1box As New Rectangle(650, 215, 145, 1075) 'first Vertical Box
         Dim VV1box As New Rectangle(695, 259, 44, 451) 'first short vertical box
         Dim VV2box As New Rectangle(695, 754, 44, 166) 'second short vertical box
-        Dim VV3box As New Rectangle(695, 964, 44, 151) 'third vertical box
+        Dim VV3box As New Rectangle(695, 964, 44, 326) 'third short vertical box
+
 
         e.Graphics.DrawImage(a, r) 'Left CSHS
         e.Graphics.DrawImage(b, rr)  'Right DEPED
@@ -300,10 +314,12 @@ Public Class Curriculum_Form
         Dim ff1 As New Font("Century Gothic", 6, FontStyle.Bold)
 
         'Headings
-        e.Graphics.DrawString("CAINTA SENIOR HIGH SCHOOL", font3, Brushes.Black, 220, 30)
-        e.Graphics.DrawString("PROSPECTUS", font33, Brushes.Black, 380, 60)
-        e.Graphics.DrawString("S.Y." + TextBox61.Text + "-" + TextBox62.Text, font1, Brushes.Black, 375, 75)
+        e.Graphics.DrawString("CAINTA SENIOR HIGH SCHOOL", font3, Brushes.Black, 220, 40)
+        e.Graphics.DrawString("PROSPECTUS", font33, Brushes.Black, 380, 70)
+        e.Graphics.DrawString("S.Y." + TextBox61.Text + "-" + TextBox62.Text, font1, Brushes.Black, 375, 85)
 
+
+        '' Print Selection
         Dim StudentStatus As New Dictionary(Of RadioButton, String) From {
             {RadioButton1, "Transferee  ( ✓ )"},
             {RadioButton2, "Irregular   ( ✓ )"},
@@ -311,40 +327,97 @@ Public Class Curriculum_Form
             {RadioButton4, "Regular   ( ✓ )"}
         }
 
-        '' Print Selection
         printSettings.DrawRadioButtonSelection(e, StudentStatus, font1, School)
 
+        '' print date
         e.Graphics.DrawString("DATE: " + Date.Now.ToString("MM/dd/yyyy") + vbNewLine + "TVL - ICT", font2, Brushes.Black, 660, 90)
-        e.Graphics.DrawString("Region : " + ComboBox1.Text, font1, Brushes.Black, 70, 145)
+        e.Graphics.DrawString("Region : " + ComboBox1.Text, font1, Brushes.Black, 70, 150)
 
         '' Print header Core Curriculum
         printSettings.DrawHeader(e, {BOX, h1box, V1box, VV1box}, {font1, T, ff1}, "                Core Curriculum")
+        e.Graphics.DrawLine(Pens.Black, 695, 239, 695, 259) ' basta line din sya sa lien sa time
+        e.Graphics.DrawLine(Pens.Black, 395, 215, 395, 1290) 'Line to First Box to Third Box
+        e.Graphics.DrawLine(Pens.Black, 739, 215, 739, 259) ' basta line sa time
+        e.Graphics.DrawString(" Semester   Semester ", ff1, Brushes.Black, 650, 248)
 
         '' Print Core Subjects
-        Dim courses As (CheckBox, TextBox, TextBox, String, Integer)() = {
-            (CheckBox9, TextBox38, TextBox13, "  • Oral Communication", 250),
-            (CheckBox10, TextBox6, TextBox31, "  • Reading And Writing", 270),
-            (CheckBox11, TextBox7, TextBox32, "  • Komunikasyon at Pananaliksik sa" + vbNewLine + "      Wika at  Kulturang Pilipino", 290),
-            (CheckBox12, TextBox8, TextBox33, "  • Pagbasa at Pagsusuri ng imba't iba't ibang" + vbNewLine + "       Teksto Tungo sa Panaliksisk", 330),
-            (CheckBox13, TextBox9, TextBox34, "  • 21st Century Literature " + vbNewLine + "       Fr. Phil to World", 370),
-            (CheckBox14, TextBox10, TextBox35, "  • Contemporary Philippine Arts" + vbNewLine + "       from the Regions", 410),
-            (CheckBox15, TextBox7, TextBox32, "  • Media and Information Literacy", 450),
-            (CheckBox16, TextBox8, TextBox33, "  • General Math", 470),
-            (CheckBox17, TextBox9, TextBox34, "  • Statistics and Probability", 490),
-            (CheckBox18, TextBox10, TextBox35, "  • Earth and Life Science", 510),
-            (CheckBox19, TextBox7, TextBox32, "  • Physical Science", 530),
-            (CheckBox20, TextBox8, TextBox33, "  • Introduction to Philosopy" + vbNewLine + "      of the Human Person", 570),
-            (CheckBox21, TextBox9, TextBox34, "  • Personal Development", 590),
-            (CheckBox22, TextBox10, TextBox35, "  • Contemporary Philippine Arts" + vbNewLine + "       from the Regions", 610),
-            (CheckBox8, TextBox7, TextBox32, "  • Media and Information Literacy", 450),
-            (CheckBox4, TextBox8, TextBox33, "  • General Math", 470),
-            (CheckBox5, TextBox9, TextBox34, "  • Statistics and Probability", 490),
-            (CheckBox6, TextBox10, TextBox35, "  • Understanding Culture, " + vbNewLine + "      Society and Politics", 650)
+        Dim Core_Curriculum As (CheckBox, TextBox, TextBox, String, Integer, Integer)() = {
+            (CheckBox1, TextBox5, TextBox30, "  • Oral Communication", 280, 0),
+            (CheckBox2, TextBox6, TextBox31, "  • Reading And Writing", 300, 0),
+            (CheckBox7, TextBox11, TextBox36, "  • Media and Information Literacy", 320, 0),
+            (CheckBox8, TextBox12, TextBox37, "  • General Math", 340, 0),
+            (CheckBox9, TextBox13, TextBox38, "  • Statistics and Probability", 360, 0),
+            (CheckBox10, TextBox14, TextBox39, "  • Earth and Life Science", 380, 0),
+            (CheckBox11, TextBox15, TextBox40, "  • Physical Science", 400, 0),
+            (CheckBox13, TextBox17, TextBox42, "  • Personal Development", 420, 0),
+            (CheckBox15, TextBox19, TextBox44, "  • Media and Information Literacy", 440, 0),
+            (CheckBox3, TextBox5, TextBox30, "  • Komunikasyon at Pananaliksik sa" + vbNewLine + "      Wika at  Kulturang Pilipino", 460, 20),
+            (CheckBox4, TextBox8, TextBox33, "  • Pagbasa at Pagsusuri ng imba't iba't " + vbNewLine + "      ibang Teksto Tungo sa Panaliksisk", 500, 20),
+            (CheckBox5, TextBox9, TextBox34, "  • 21st Century Literature " + vbNewLine + "       Fr. Phil to World", 540, 20),
+            (CheckBox6, TextBox10, TextBox35, "  • Contemporary Philippine Arts" + vbNewLine + "       from the Regions", 580, 20),
+            (CheckBox12, TextBox16, TextBox41, "  • Introduction to Philosopy" + vbNewLine + "      of the Human Person", 620, 20),
+            (CheckBox14, TextBox18, TextBox43, "  • Contemporary Philippine Arts" + vbNewLine + "       from the Regions", 660, 20)
         }
 
-        For Each course In courses
-            printSettings.DrawCourse(e, course.Item1, course.Item2, course.Item3, course.Item4, course.Item5, font1)
+        For Each course In Core_Curriculum
+            printSettings.DrawCourse(e, course.Item1, course.Item2, course.Item3, course.Item4, course.Item5, font1, course.Item6)
         Next
+
+        '' Print Header Applied Subjects
+        e.Graphics.DrawRectangle(Pens.Black, h2box)
+        printSettings.DrawHeader(e, {BOX, h1box, V1box, VV1box}, {font1, T, ff1}, "                Applied Subjects ", {715, 711, 733, 714})
+        e.Graphics.DrawLine(Pens.Black, 739, 710, 739, 754) 'basta line din
+        e.Graphics.DrawLine(Pens.Black, 695, 732, 695, 754) 'basta line din
+        e.Graphics.DrawRectangle(Pens.Black, VV2box)
+
+        '' Print Applied Subjects
+        Dim Applied_Curriculum As (CheckBox, TextBox, TextBox, String, Integer, Integer)() = {
+            (CheckBox16, TextBox20, TextBox47, "  • English for Academic Purposes", 770, 0),
+            (CheckBox17, TextBox21, TextBox48, "  • Practical Research 1", 790, 0),
+            (CheckBox18, TextBox22, TextBox49, "  • Practical Research 2", 810, 0),
+            (CheckBox19, TextBox23, TextBox50, "  • Filipino sa Piling Larang", 830, 0),
+            (CheckBox20, TextBox24, TextBox51, "  • Empowerment Technologies", 850, 0),
+            (CheckBox21, TextBox25, TextBox52, "  • Entrepreneurship", 870, 0),
+            (CheckBox22, TextBox26, TextBox53, "  • Inquiries, Investigations and Immersion", 890, 0)
+        }
+        For Each course In Applied_Curriculum
+            printSettings.DrawCourse(e, course.Item1, course.Item2, course.Item3, course.Item4, course.Item5, font1, course.Item6)
+        Next
+
+        '' Print Header Major Subjects
+        e.Graphics.DrawRectangle(Pens.Black, h3box)
+        e.Graphics.DrawLine(Pens.Black, 739, 920, 739, 964)
+        e.Graphics.DrawLine(Pens.Black, 695, 942, 695, 964)
+
+
+        printSettings.DrawHeader(e, {BOX, h1box, V1box, VV1box}, {font1, T, ff1}, "                Major Subjects ", {925, 920, 942, 925})
+
+        '' Print Major Subjects - ICT
+        e.Graphics.DrawRectangle(Pens.Black, VV3box)
+        For Each course In Major_Curriculum
+            printSettings.DrawCourse(e, course.Item1, course.Item2, course.Item3, course.Item4, course.Item5, font1, course.Item6)
+        Next
+
+        ''WORK IMMERSION
+        e.Graphics.DrawLine(Pens.Black, 51, 1160 + 30, 795, 1160 + 30) ''immersion box
+        e.Graphics.DrawString("Date: mm/dd/yyyy ", font1, Brushes.Black, 450, 1180 + 30)
+        e.Graphics.DrawString("No. of " + vbNewLine + "Hours", font1, Brushes.Black, 660, 1170 + 30)
+        e.Graphics.DrawString("Final " + vbNewLine + "Grade", font1, Brushes.Black, 730, 1170 + 30)
+        e.Graphics.DrawLine(Pens.Black, 395, 1210 + 30, 795, 1210 + 30)
+        e.Graphics.DrawLine(Pens.Black, 720, 1160 + 30, 720, 1280 + 30) 'vertical Line
+
+        If CheckBox29.Checked = False Then
+            e.Graphics.DrawString("   • WORK IMMERSION", font1, Brushes.Black, 60, 1220 + 30)
+            e.Graphics.DrawString("Start :" + " _____________________", font1, Brushes.Black, 405, 1230 + 30)
+            e.Graphics.DrawString(" End : " + "_____________________", font1, Brushes.Black, 405, 1250 + 30)
+        Else
+            e.Graphics.DrawString("   • WORK IMMERSION", font1, Brushes.Black, 60, 1220 + 30)
+            e.Graphics.DrawString("Start : " + DateTimePicker1.Text, font1, Brushes.Black, 450, 1230 + 30)
+            e.Graphics.DrawString(" End : " + DateTimePicker1.Text, font1, Brushes.Black, 450, 1250 + 30)
+            e.Graphics.DrawString(TextBox63.Text, font1, Brushes.Black, 655, 1240 + 30)
+            e.Graphics.DrawString(TextBox64.Text, font1, Brushes.Black, 750, 1240 + 30)
+
+        End If
 
     End Sub
 
