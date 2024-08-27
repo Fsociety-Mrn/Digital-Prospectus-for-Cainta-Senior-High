@@ -12,7 +12,11 @@
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        Bap.Show()
+        Dim CurrciculumForm As New Curriculum_Form()
+        CurrciculumForm.Parameter = "BAP"
+        CurrciculumForm.MyLabel = "Bread and Pastry"
+        CurrciculumForm.Show()
+
         Me.Hide()
     End Sub
 

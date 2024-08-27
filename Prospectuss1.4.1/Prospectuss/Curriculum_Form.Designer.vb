@@ -122,6 +122,20 @@ Partial Class Curriculum_Form
         Me.Label5 = New System.Windows.Forms.Label()
         Me.RadioButton4 = New System.Windows.Forms.RadioButton()
         Me.AppliedSubjects = New System.Windows.Forms.Panel()
+        Me.TextBox47 = New System.Windows.Forms.TextBox()
+        Me.TextBox22 = New System.Windows.Forms.TextBox()
+        Me.TextBox21 = New System.Windows.Forms.TextBox()
+        Me.TextBox20 = New System.Windows.Forms.TextBox()
+        Me.TextBox8 = New System.Windows.Forms.TextBox()
+        Me.TextBox33 = New System.Windows.Forms.TextBox()
+        Me.TextBox48 = New System.Windows.Forms.TextBox()
+        Me.TextBox26 = New System.Windows.Forms.TextBox()
+        Me.TextBox52 = New System.Windows.Forms.TextBox()
+        Me.TextBox51 = New System.Windows.Forms.TextBox()
+        Me.TextBox49 = New System.Windows.Forms.TextBox()
+        Me.TextBox24 = New System.Windows.Forms.TextBox()
+        Me.TextBox25 = New System.Windows.Forms.TextBox()
+        Me.TextBox53 = New System.Windows.Forms.TextBox()
         Me.TextBox32 = New System.Windows.Forms.TextBox()
         Me.TextBox34 = New System.Windows.Forms.TextBox()
         Me.TextBox35 = New System.Windows.Forms.TextBox()
@@ -152,20 +166,6 @@ Partial Class Curriculum_Form
         Me.TextBox41 = New System.Windows.Forms.TextBox()
         Me.TextBox40 = New System.Windows.Forms.TextBox()
         Me.TextBox39 = New System.Windows.Forms.TextBox()
-        Me.TextBox49 = New System.Windows.Forms.TextBox()
-        Me.TextBox47 = New System.Windows.Forms.TextBox()
-        Me.TextBox51 = New System.Windows.Forms.TextBox()
-        Me.TextBox52 = New System.Windows.Forms.TextBox()
-        Me.TextBox26 = New System.Windows.Forms.TextBox()
-        Me.TextBox24 = New System.Windows.Forms.TextBox()
-        Me.TextBox25 = New System.Windows.Forms.TextBox()
-        Me.TextBox53 = New System.Windows.Forms.TextBox()
-        Me.TextBox48 = New System.Windows.Forms.TextBox()
-        Me.TextBox33 = New System.Windows.Forms.TextBox()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
-        Me.TextBox20 = New System.Windows.Forms.TextBox()
-        Me.TextBox21 = New System.Windows.Forms.TextBox()
-        Me.TextBox22 = New System.Windows.Forms.TextBox()
         Me.CoreSubject = New System.Windows.Forms.Panel()
         Me.MajorElectrical = New System.Windows.Forms.Panel()
         Me.Panel3 = New System.Windows.Forms.Panel()
@@ -182,6 +182,28 @@ Partial Class Curriculum_Form
         Me.TextBox62 = New System.Windows.Forms.TextBox()
         Me.TextBox65 = New System.Windows.Forms.TextBox()
         Me.TextBox66 = New System.Windows.Forms.TextBox()
+        Me.MajorBAP = New System.Windows.Forms.Panel()
+        Me.CheckBox34 = New System.Windows.Forms.CheckBox()
+        Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.Label23 = New System.Windows.Forms.Label()
+        Me.Label24 = New System.Windows.Forms.Label()
+        Me.Label25 = New System.Windows.Forms.Label()
+        Me.DateTimePicker5 = New System.Windows.Forms.DateTimePicker()
+        Me.DateTimePicker6 = New System.Windows.Forms.DateTimePicker()
+        Me.TextBox67 = New System.Windows.Forms.TextBox()
+        Me.TextBox68 = New System.Windows.Forms.TextBox()
+        Me.CheckBox35 = New System.Windows.Forms.CheckBox()
+        Me.TextBox69 = New System.Windows.Forms.TextBox()
+        Me.TextBox70 = New System.Windows.Forms.TextBox()
+        Me.CheckBox36 = New System.Windows.Forms.CheckBox()
+        Me.TextBox71 = New System.Windows.Forms.TextBox()
+        Me.TextBox72 = New System.Windows.Forms.TextBox()
+        Me.CheckBox37 = New System.Windows.Forms.CheckBox()
+        Me.TextBox73 = New System.Windows.Forms.TextBox()
+        Me.TextBox74 = New System.Windows.Forms.TextBox()
+        Me.CheckBox38 = New System.Windows.Forms.CheckBox()
+        Me.TextBox75 = New System.Windows.Forms.TextBox()
+        Me.TextBox76 = New System.Windows.Forms.TextBox()
         Me.Panel1.SuspendLayout()
         Me.MajorICT.SuspendLayout()
         Me.Panel5.SuspendLayout()
@@ -189,6 +211,8 @@ Partial Class Curriculum_Form
         Me.CoreSubject.SuspendLayout()
         Me.MajorElectrical.SuspendLayout()
         Me.Panel3.SuspendLayout()
+        Me.MajorBAP.SuspendLayout()
+        Me.Panel4.SuspendLayout()
         Me.SuspendLayout()
         '
         'Panel1
@@ -202,7 +226,7 @@ Partial Class Curriculum_Form
         Me.Panel1.ForeColor = System.Drawing.SystemColors.ActiveCaption
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(943, 46)
+        Me.Panel1.Size = New System.Drawing.Size(1444, 46)
         Me.Panel1.TabIndex = 3
         '
         'Label1
@@ -628,7 +652,7 @@ Partial Class Curriculum_Form
         Me.CheckBox13.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CheckBox13.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox13.ForeColor = System.Drawing.Color.White
-        Me.CheckBox13.Location = New System.Drawing.Point(262, 136)
+        Me.CheckBox13.Location = New System.Drawing.Point(262, 140)
         Me.CheckBox13.Name = "CheckBox13"
         Me.CheckBox13.Size = New System.Drawing.Size(131, 29)
         Me.CheckBox13.TabIndex = 715
@@ -643,7 +667,7 @@ Partial Class Curriculum_Form
         Me.CheckBox12.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CheckBox12.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox12.ForeColor = System.Drawing.Color.White
-        Me.CheckBox12.Location = New System.Drawing.Point(262, 102)
+        Me.CheckBox12.Location = New System.Drawing.Point(262, 107)
         Me.CheckBox12.Name = "CheckBox12"
         Me.CheckBox12.Size = New System.Drawing.Size(121, 29)
         Me.CheckBox12.TabIndex = 716
@@ -658,7 +682,7 @@ Partial Class Curriculum_Form
         Me.CheckBox11.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CheckBox11.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox11.ForeColor = System.Drawing.Color.White
-        Me.CheckBox11.Location = New System.Drawing.Point(262, 68)
+        Me.CheckBox11.Location = New System.Drawing.Point(262, 74)
         Me.CheckBox11.Name = "CheckBox11"
         Me.CheckBox11.Size = New System.Drawing.Size(114, 29)
         Me.CheckBox11.TabIndex = 717
@@ -673,7 +697,7 @@ Partial Class Curriculum_Form
         Me.CheckBox10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CheckBox10.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox10.ForeColor = System.Drawing.Color.White
-        Me.CheckBox10.Location = New System.Drawing.Point(262, 34)
+        Me.CheckBox10.Location = New System.Drawing.Point(262, 41)
         Me.CheckBox10.Name = "CheckBox10"
         Me.CheckBox10.Size = New System.Drawing.Size(105, 29)
         Me.CheckBox10.TabIndex = 718
@@ -688,7 +712,7 @@ Partial Class Curriculum_Form
         Me.CheckBox14.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CheckBox14.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox14.ForeColor = System.Drawing.Color.White
-        Me.CheckBox14.Location = New System.Drawing.Point(262, 170)
+        Me.CheckBox14.Location = New System.Drawing.Point(262, 173)
         Me.CheckBox14.Name = "CheckBox14"
         Me.CheckBox14.Size = New System.Drawing.Size(100, 29)
         Me.CheckBox14.TabIndex = 720
@@ -703,7 +727,7 @@ Partial Class Curriculum_Form
         Me.CheckBox15.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CheckBox15.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox15.ForeColor = System.Drawing.Color.White
-        Me.CheckBox15.Location = New System.Drawing.Point(262, 204)
+        Me.CheckBox15.Location = New System.Drawing.Point(262, 206)
         Me.CheckBox15.Name = "CheckBox15"
         Me.CheckBox15.Size = New System.Drawing.Size(86, 29)
         Me.CheckBox15.TabIndex = 721
@@ -718,7 +742,7 @@ Partial Class Curriculum_Form
         Me.CheckBox8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CheckBox8.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox8.ForeColor = System.Drawing.Color.White
-        Me.CheckBox8.Location = New System.Drawing.Point(16, 239)
+        Me.CheckBox8.Location = New System.Drawing.Point(16, 241)
         Me.CheckBox8.Name = "CheckBox8"
         Me.CheckBox8.Size = New System.Drawing.Size(120, 29)
         Me.CheckBox8.TabIndex = 700
@@ -733,7 +757,7 @@ Partial Class Curriculum_Form
         Me.CheckBox5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CheckBox5.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox5.ForeColor = System.Drawing.Color.White
-        Me.CheckBox5.Location = New System.Drawing.Point(18, 158)
+        Me.CheckBox5.Location = New System.Drawing.Point(16, 140)
         Me.CheckBox5.Name = "CheckBox5"
         Me.CheckBox5.Size = New System.Drawing.Size(133, 29)
         Me.CheckBox5.TabIndex = 694
@@ -748,7 +772,7 @@ Partial Class Curriculum_Form
         Me.CheckBox7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CheckBox7.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox7.ForeColor = System.Drawing.Color.White
-        Me.CheckBox7.Location = New System.Drawing.Point(18, 226)
+        Me.CheckBox7.Location = New System.Drawing.Point(16, 206)
         Me.CheckBox7.Name = "CheckBox7"
         Me.CheckBox7.Size = New System.Drawing.Size(81, 29)
         Me.CheckBox7.TabIndex = 693
@@ -763,7 +787,7 @@ Partial Class Curriculum_Form
         Me.CheckBox6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CheckBox6.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox6.ForeColor = System.Drawing.Color.White
-        Me.CheckBox6.Location = New System.Drawing.Point(18, 192)
+        Me.CheckBox6.Location = New System.Drawing.Point(16, 173)
         Me.CheckBox6.Name = "CheckBox6"
         Me.CheckBox6.Size = New System.Drawing.Size(147, 29)
         Me.CheckBox6.TabIndex = 699
@@ -778,7 +802,7 @@ Partial Class Curriculum_Form
         Me.CheckBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CheckBox2.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox2.ForeColor = System.Drawing.Color.White
-        Me.CheckBox2.Location = New System.Drawing.Point(18, 56)
+        Me.CheckBox2.Location = New System.Drawing.Point(16, 41)
         Me.CheckBox2.Name = "CheckBox2"
         Me.CheckBox2.Size = New System.Drawing.Size(99, 29)
         Me.CheckBox2.TabIndex = 695
@@ -793,7 +817,7 @@ Partial Class Curriculum_Form
         Me.CheckBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CheckBox3.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox3.ForeColor = System.Drawing.Color.White
-        Me.CheckBox3.Location = New System.Drawing.Point(18, 90)
+        Me.CheckBox3.Location = New System.Drawing.Point(16, 74)
         Me.CheckBox3.Name = "CheckBox3"
         Me.CheckBox3.Size = New System.Drawing.Size(131, 29)
         Me.CheckBox3.TabIndex = 696
@@ -808,7 +832,7 @@ Partial Class Curriculum_Form
         Me.CheckBox4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CheckBox4.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox4.ForeColor = System.Drawing.Color.White
-        Me.CheckBox4.Location = New System.Drawing.Point(18, 124)
+        Me.CheckBox4.Location = New System.Drawing.Point(16, 107)
         Me.CheckBox4.Name = "CheckBox4"
         Me.CheckBox4.Size = New System.Drawing.Size(98, 29)
         Me.CheckBox4.TabIndex = 698
@@ -823,7 +847,7 @@ Partial Class Curriculum_Form
         Me.CheckBox9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CheckBox9.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox9.ForeColor = System.Drawing.Color.White
-        Me.CheckBox9.Location = New System.Drawing.Point(262, 0)
+        Me.CheckBox9.Location = New System.Drawing.Point(262, 8)
         Me.CheckBox9.Name = "CheckBox9"
         Me.CheckBox9.Size = New System.Drawing.Size(100, 29)
         Me.CheckBox9.TabIndex = 719
@@ -838,7 +862,7 @@ Partial Class Curriculum_Form
         Me.CheckBox19.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CheckBox19.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox19.ForeColor = System.Drawing.Color.White
-        Me.CheckBox19.Location = New System.Drawing.Point(15, 101)
+        Me.CheckBox19.Location = New System.Drawing.Point(13, 118)
         Me.CheckBox19.Name = "CheckBox19"
         Me.CheckBox19.Size = New System.Drawing.Size(90, 29)
         Me.CheckBox19.TabIndex = 779
@@ -853,7 +877,7 @@ Partial Class Curriculum_Form
         Me.CheckBox22.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CheckBox22.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox22.ForeColor = System.Drawing.Color.White
-        Me.CheckBox22.Location = New System.Drawing.Point(16, 204)
+        Me.CheckBox22.Location = New System.Drawing.Point(14, 221)
         Me.CheckBox22.Name = "CheckBox22"
         Me.CheckBox22.Size = New System.Drawing.Size(60, 29)
         Me.CheckBox22.TabIndex = 743
@@ -868,7 +892,7 @@ Partial Class Curriculum_Form
         Me.CheckBox21.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CheckBox21.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox21.ForeColor = System.Drawing.Color.White
-        Me.CheckBox21.Location = New System.Drawing.Point(15, 172)
+        Me.CheckBox21.Location = New System.Drawing.Point(13, 189)
         Me.CheckBox21.Name = "CheckBox21"
         Me.CheckBox21.Size = New System.Drawing.Size(87, 29)
         Me.CheckBox21.TabIndex = 739
@@ -883,7 +907,7 @@ Partial Class Curriculum_Form
         Me.CheckBox20.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CheckBox20.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox20.ForeColor = System.Drawing.SystemColors.Window
-        Me.CheckBox20.Location = New System.Drawing.Point(16, 136)
+        Me.CheckBox20.Location = New System.Drawing.Point(14, 153)
         Me.CheckBox20.Name = "CheckBox20"
         Me.CheckBox20.Size = New System.Drawing.Size(116, 29)
         Me.CheckBox20.TabIndex = 740
@@ -899,7 +923,7 @@ Partial Class Curriculum_Form
         Me.CheckBox17.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CheckBox17.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox17.ForeColor = System.Drawing.Color.White
-        Me.CheckBox17.Location = New System.Drawing.Point(16, 34)
+        Me.CheckBox17.Location = New System.Drawing.Point(14, 51)
         Me.CheckBox17.Name = "CheckBox17"
         Me.CheckBox17.Size = New System.Drawing.Size(110, 29)
         Me.CheckBox17.TabIndex = 745
@@ -914,7 +938,7 @@ Partial Class Curriculum_Form
         Me.CheckBox18.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CheckBox18.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox18.ForeColor = System.Drawing.Color.White
-        Me.CheckBox18.Location = New System.Drawing.Point(16, 69)
+        Me.CheckBox18.Location = New System.Drawing.Point(14, 86)
         Me.CheckBox18.Name = "CheckBox18"
         Me.CheckBox18.Size = New System.Drawing.Size(115, 29)
         Me.CheckBox18.TabIndex = 742
@@ -929,7 +953,7 @@ Partial Class Curriculum_Form
         Me.CheckBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CheckBox1.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox1.ForeColor = System.Drawing.Color.White
-        Me.CheckBox1.Location = New System.Drawing.Point(18, 22)
+        Me.CheckBox1.Location = New System.Drawing.Point(16, 8)
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(128, 29)
         Me.CheckBox1.TabIndex = 697
@@ -944,7 +968,7 @@ Partial Class Curriculum_Form
         Me.CheckBox16.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CheckBox16.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox16.ForeColor = System.Drawing.Color.White
-        Me.CheckBox16.Location = New System.Drawing.Point(17, 0)
+        Me.CheckBox16.Location = New System.Drawing.Point(15, 17)
         Me.CheckBox16.Name = "CheckBox16"
         Me.CheckBox16.Size = New System.Drawing.Size(84, 29)
         Me.CheckBox16.TabIndex = 744
@@ -1234,7 +1258,7 @@ Partial Class Curriculum_Form
         Me.MajorICT.Controls.Add(Me.CheckBox25)
         Me.MajorICT.Controls.Add(Me.TextBox29)
         Me.MajorICT.Controls.Add(Me.TextBox56)
-        Me.MajorICT.Location = New System.Drawing.Point(529, 182)
+        Me.MajorICT.Location = New System.Drawing.Point(929, 56)
         Me.MajorICT.Name = "MajorICT"
         Me.MajorICT.Size = New System.Drawing.Size(503, 276)
         Me.MajorICT.TabIndex = 780
@@ -1471,39 +1495,194 @@ Partial Class Curriculum_Form
         '
         'AppliedSubjects
         '
-        Me.AppliedSubjects.Controls.Add(Me.CheckBox1)
-        Me.AppliedSubjects.Controls.Add(Me.TextBox32)
-        Me.AppliedSubjects.Controls.Add(Me.TextBox34)
-        Me.AppliedSubjects.Controls.Add(Me.TextBox35)
-        Me.AppliedSubjects.Controls.Add(Me.TextBox36)
-        Me.AppliedSubjects.Controls.Add(Me.TextBox7)
-        Me.AppliedSubjects.Controls.Add(Me.TextBox11)
-        Me.AppliedSubjects.Controls.Add(Me.TextBox6)
-        Me.AppliedSubjects.Controls.Add(Me.TextBox10)
-        Me.AppliedSubjects.Controls.Add(Me.TextBox31)
-        Me.AppliedSubjects.Controls.Add(Me.TextBox9)
-        Me.AppliedSubjects.Controls.Add(Me.TextBox30)
-        Me.AppliedSubjects.Controls.Add(Me.TextBox5)
-        Me.AppliedSubjects.Controls.Add(Me.CheckBox5)
-        Me.AppliedSubjects.Controls.Add(Me.TextBox23)
-        Me.AppliedSubjects.Controls.Add(Me.CheckBox7)
-        Me.AppliedSubjects.Controls.Add(Me.CheckBox6)
-        Me.AppliedSubjects.Controls.Add(Me.CheckBox4)
-        Me.AppliedSubjects.Controls.Add(Me.CheckBox2)
-        Me.AppliedSubjects.Controls.Add(Me.CheckBox3)
-        Me.AppliedSubjects.Controls.Add(Me.TextBox50)
-        Me.AppliedSubjects.Location = New System.Drawing.Point(82, 229)
+        Me.AppliedSubjects.Controls.Add(Me.TextBox47)
+        Me.AppliedSubjects.Controls.Add(Me.CheckBox16)
+        Me.AppliedSubjects.Controls.Add(Me.TextBox22)
+        Me.AppliedSubjects.Controls.Add(Me.TextBox21)
+        Me.AppliedSubjects.Controls.Add(Me.TextBox20)
+        Me.AppliedSubjects.Controls.Add(Me.TextBox8)
+        Me.AppliedSubjects.Controls.Add(Me.CheckBox18)
+        Me.AppliedSubjects.Controls.Add(Me.CheckBox17)
+        Me.AppliedSubjects.Controls.Add(Me.TextBox33)
+        Me.AppliedSubjects.Controls.Add(Me.TextBox48)
+        Me.AppliedSubjects.Controls.Add(Me.CheckBox20)
+        Me.AppliedSubjects.Controls.Add(Me.TextBox26)
+        Me.AppliedSubjects.Controls.Add(Me.TextBox52)
+        Me.AppliedSubjects.Controls.Add(Me.TextBox51)
+        Me.AppliedSubjects.Controls.Add(Me.CheckBox21)
+        Me.AppliedSubjects.Controls.Add(Me.TextBox49)
+        Me.AppliedSubjects.Controls.Add(Me.TextBox24)
+        Me.AppliedSubjects.Controls.Add(Me.CheckBox22)
+        Me.AppliedSubjects.Controls.Add(Me.TextBox25)
+        Me.AppliedSubjects.Controls.Add(Me.TextBox53)
+        Me.AppliedSubjects.Controls.Add(Me.CheckBox19)
+        Me.AppliedSubjects.Location = New System.Drawing.Point(941, 353)
         Me.AppliedSubjects.Name = "AppliedSubjects"
         Me.AppliedSubjects.Size = New System.Drawing.Size(503, 276)
         Me.AppliedSubjects.TabIndex = 793
         Me.AppliedSubjects.Visible = False
+        '
+        'TextBox47
+        '
+        Me.TextBox47.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox47.Enabled = False
+        Me.TextBox47.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox47.Location = New System.Drawing.Point(159, 23)
+        Me.TextBox47.Name = "TextBox47"
+        Me.TextBox47.Size = New System.Drawing.Size(35, 20)
+        Me.TextBox47.TabIndex = 757
+        Me.TextBox47.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox22
+        '
+        Me.TextBox22.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox22.Enabled = False
+        Me.TextBox22.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox22.Location = New System.Drawing.Point(200, 91)
+        Me.TextBox22.Name = "TextBox22"
+        Me.TextBox22.Size = New System.Drawing.Size(35, 20)
+        Me.TextBox22.TabIndex = 747
+        Me.TextBox22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox21
+        '
+        Me.TextBox21.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox21.Enabled = False
+        Me.TextBox21.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox21.Location = New System.Drawing.Point(200, 57)
+        Me.TextBox21.Name = "TextBox21"
+        Me.TextBox21.Size = New System.Drawing.Size(35, 20)
+        Me.TextBox21.TabIndex = 759
+        Me.TextBox21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox20
+        '
+        Me.TextBox20.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox20.Enabled = False
+        Me.TextBox20.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox20.Location = New System.Drawing.Point(200, 23)
+        Me.TextBox20.Name = "TextBox20"
+        Me.TextBox20.Size = New System.Drawing.Size(35, 20)
+        Me.TextBox20.TabIndex = 758
+        Me.TextBox20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox8
+        '
+        Me.TextBox8.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox8.Enabled = False
+        Me.TextBox8.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox8.Location = New System.Drawing.Point(200, 124)
+        Me.TextBox8.Name = "TextBox8"
+        Me.TextBox8.Size = New System.Drawing.Size(35, 20)
+        Me.TextBox8.TabIndex = 777
+        Me.TextBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox33
+        '
+        Me.TextBox33.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox33.Enabled = False
+        Me.TextBox33.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox33.Location = New System.Drawing.Point(159, 124)
+        Me.TextBox33.Name = "TextBox33"
+        Me.TextBox33.Size = New System.Drawing.Size(35, 20)
+        Me.TextBox33.TabIndex = 778
+        Me.TextBox33.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox48
+        '
+        Me.TextBox48.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox48.Enabled = False
+        Me.TextBox48.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox48.Location = New System.Drawing.Point(158, 57)
+        Me.TextBox48.Name = "TextBox48"
+        Me.TextBox48.Size = New System.Drawing.Size(35, 20)
+        Me.TextBox48.TabIndex = 756
+        Me.TextBox48.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.TextBox48.WordWrap = False
+        '
+        'TextBox26
+        '
+        Me.TextBox26.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox26.Enabled = False
+        Me.TextBox26.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox26.Location = New System.Drawing.Point(200, 227)
+        Me.TextBox26.Name = "TextBox26"
+        Me.TextBox26.Size = New System.Drawing.Size(35, 20)
+        Me.TextBox26.TabIndex = 751
+        Me.TextBox26.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox52
+        '
+        Me.TextBox52.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox52.Enabled = False
+        Me.TextBox52.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox52.Location = New System.Drawing.Point(159, 193)
+        Me.TextBox52.Name = "TextBox52"
+        Me.TextBox52.Size = New System.Drawing.Size(35, 20)
+        Me.TextBox52.TabIndex = 755
+        Me.TextBox52.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox51
+        '
+        Me.TextBox51.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox51.Enabled = False
+        Me.TextBox51.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox51.Location = New System.Drawing.Point(159, 159)
+        Me.TextBox51.Name = "TextBox51"
+        Me.TextBox51.Size = New System.Drawing.Size(35, 20)
+        Me.TextBox51.TabIndex = 754
+        Me.TextBox51.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox49
+        '
+        Me.TextBox49.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox49.Enabled = False
+        Me.TextBox49.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox49.Location = New System.Drawing.Point(159, 91)
+        Me.TextBox49.Name = "TextBox49"
+        Me.TextBox49.Size = New System.Drawing.Size(35, 20)
+        Me.TextBox49.TabIndex = 752
+        Me.TextBox49.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox24
+        '
+        Me.TextBox24.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox24.Enabled = False
+        Me.TextBox24.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox24.Location = New System.Drawing.Point(200, 159)
+        Me.TextBox24.Name = "TextBox24"
+        Me.TextBox24.Size = New System.Drawing.Size(35, 20)
+        Me.TextBox24.TabIndex = 749
+        Me.TextBox24.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox25
+        '
+        Me.TextBox25.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox25.Enabled = False
+        Me.TextBox25.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox25.Location = New System.Drawing.Point(200, 193)
+        Me.TextBox25.Name = "TextBox25"
+        Me.TextBox25.Size = New System.Drawing.Size(35, 20)
+        Me.TextBox25.TabIndex = 750
+        Me.TextBox25.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox53
+        '
+        Me.TextBox53.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox53.Enabled = False
+        Me.TextBox53.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox53.Location = New System.Drawing.Point(159, 227)
+        Me.TextBox53.Name = "TextBox53"
+        Me.TextBox53.Size = New System.Drawing.Size(35, 20)
+        Me.TextBox53.TabIndex = 746
+        Me.TextBox53.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox32
         '
         Me.TextBox32.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox32.Enabled = False
         Me.TextBox32.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox32.Location = New System.Drawing.Point(163, 96)
+        Me.TextBox32.Location = New System.Drawing.Point(159, 78)
         Me.TextBox32.Name = "TextBox32"
         Me.TextBox32.Size = New System.Drawing.Size(35, 20)
         Me.TextBox32.TabIndex = 709
@@ -1514,7 +1693,7 @@ Partial Class Curriculum_Form
         Me.TextBox34.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox34.Enabled = False
         Me.TextBox34.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox34.Location = New System.Drawing.Point(163, 164)
+        Me.TextBox34.Location = New System.Drawing.Point(159, 144)
         Me.TextBox34.Name = "TextBox34"
         Me.TextBox34.Size = New System.Drawing.Size(35, 20)
         Me.TextBox34.TabIndex = 710
@@ -1525,7 +1704,7 @@ Partial Class Curriculum_Form
         Me.TextBox35.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox35.Enabled = False
         Me.TextBox35.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox35.Location = New System.Drawing.Point(163, 198)
+        Me.TextBox35.Location = New System.Drawing.Point(159, 177)
         Me.TextBox35.Name = "TextBox35"
         Me.TextBox35.Size = New System.Drawing.Size(35, 20)
         Me.TextBox35.TabIndex = 711
@@ -1536,7 +1715,7 @@ Partial Class Curriculum_Form
         Me.TextBox36.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox36.Enabled = False
         Me.TextBox36.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox36.Location = New System.Drawing.Point(163, 232)
+        Me.TextBox36.Location = New System.Drawing.Point(159, 210)
         Me.TextBox36.Name = "TextBox36"
         Me.TextBox36.Size = New System.Drawing.Size(35, 20)
         Me.TextBox36.TabIndex = 712
@@ -1547,7 +1726,7 @@ Partial Class Curriculum_Form
         Me.TextBox7.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox7.Enabled = False
         Me.TextBox7.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox7.Location = New System.Drawing.Point(204, 96)
+        Me.TextBox7.Location = New System.Drawing.Point(200, 78)
         Me.TextBox7.Name = "TextBox7"
         Me.TextBox7.Size = New System.Drawing.Size(35, 20)
         Me.TextBox7.TabIndex = 706
@@ -1558,7 +1737,7 @@ Partial Class Curriculum_Form
         Me.TextBox11.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox11.Enabled = False
         Me.TextBox11.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox11.Location = New System.Drawing.Point(204, 232)
+        Me.TextBox11.Location = New System.Drawing.Point(200, 210)
         Me.TextBox11.Name = "TextBox11"
         Me.TextBox11.Size = New System.Drawing.Size(35, 20)
         Me.TextBox11.TabIndex = 702
@@ -1569,7 +1748,7 @@ Partial Class Curriculum_Form
         Me.TextBox6.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox6.Enabled = False
         Me.TextBox6.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox6.Location = New System.Drawing.Point(204, 62)
+        Me.TextBox6.Location = New System.Drawing.Point(200, 45)
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Size = New System.Drawing.Size(35, 20)
         Me.TextBox6.TabIndex = 701
@@ -1580,7 +1759,7 @@ Partial Class Curriculum_Form
         Me.TextBox10.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox10.Enabled = False
         Me.TextBox10.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox10.Location = New System.Drawing.Point(204, 198)
+        Me.TextBox10.Location = New System.Drawing.Point(200, 177)
         Me.TextBox10.Name = "TextBox10"
         Me.TextBox10.Size = New System.Drawing.Size(35, 20)
         Me.TextBox10.TabIndex = 703
@@ -1591,7 +1770,7 @@ Partial Class Curriculum_Form
         Me.TextBox31.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox31.Enabled = False
         Me.TextBox31.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox31.Location = New System.Drawing.Point(163, 62)
+        Me.TextBox31.Location = New System.Drawing.Point(159, 45)
         Me.TextBox31.Name = "TextBox31"
         Me.TextBox31.Size = New System.Drawing.Size(35, 20)
         Me.TextBox31.TabIndex = 736
@@ -1602,7 +1781,7 @@ Partial Class Curriculum_Form
         Me.TextBox9.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox9.Enabled = False
         Me.TextBox9.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox9.Location = New System.Drawing.Point(204, 164)
+        Me.TextBox9.Location = New System.Drawing.Point(200, 144)
         Me.TextBox9.Name = "TextBox9"
         Me.TextBox9.Size = New System.Drawing.Size(35, 20)
         Me.TextBox9.TabIndex = 704
@@ -1613,7 +1792,7 @@ Partial Class Curriculum_Form
         Me.TextBox30.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox30.Enabled = False
         Me.TextBox30.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox30.Location = New System.Drawing.Point(163, 28)
+        Me.TextBox30.Location = New System.Drawing.Point(159, 12)
         Me.TextBox30.Name = "TextBox30"
         Me.TextBox30.Size = New System.Drawing.Size(35, 20)
         Me.TextBox30.TabIndex = 737
@@ -1624,7 +1803,7 @@ Partial Class Curriculum_Form
         Me.TextBox5.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox5.Enabled = False
         Me.TextBox5.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox5.Location = New System.Drawing.Point(204, 28)
+        Me.TextBox5.Location = New System.Drawing.Point(199, 12)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(35, 20)
         Me.TextBox5.TabIndex = 707
@@ -1636,7 +1815,7 @@ Partial Class Curriculum_Form
         Me.TextBox23.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox23.Enabled = False
         Me.TextBox23.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox23.Location = New System.Drawing.Point(203, 129)
+        Me.TextBox23.Location = New System.Drawing.Point(199, 111)
         Me.TextBox23.Name = "TextBox23"
         Me.TextBox23.Size = New System.Drawing.Size(35, 20)
         Me.TextBox23.TabIndex = 748
@@ -1647,7 +1826,7 @@ Partial Class Curriculum_Form
         Me.TextBox50.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox50.Enabled = False
         Me.TextBox50.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox50.Location = New System.Drawing.Point(162, 130)
+        Me.TextBox50.Location = New System.Drawing.Point(159, 111)
         Me.TextBox50.Name = "TextBox50"
         Me.TextBox50.Size = New System.Drawing.Size(35, 20)
         Me.TextBox50.TabIndex = 753
@@ -1659,7 +1838,7 @@ Partial Class Curriculum_Form
         Me.TextBox17.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox17.Enabled = False
         Me.TextBox17.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox17.Location = New System.Drawing.Point(436, 142)
+        Me.TextBox17.Location = New System.Drawing.Point(436, 144)
         Me.TextBox17.Name = "TextBox17"
         Me.TextBox17.Size = New System.Drawing.Size(35, 20)
         Me.TextBox17.TabIndex = 726
@@ -1670,7 +1849,7 @@ Partial Class Curriculum_Form
         Me.TextBox18.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox18.Enabled = False
         Me.TextBox18.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox18.Location = New System.Drawing.Point(436, 176)
+        Me.TextBox18.Location = New System.Drawing.Point(436, 177)
         Me.TextBox18.Name = "TextBox18"
         Me.TextBox18.Size = New System.Drawing.Size(35, 20)
         Me.TextBox18.TabIndex = 727
@@ -1681,7 +1860,7 @@ Partial Class Curriculum_Form
         Me.TextBox16.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox16.Enabled = False
         Me.TextBox16.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox16.Location = New System.Drawing.Point(436, 108)
+        Me.TextBox16.Location = New System.Drawing.Point(436, 111)
         Me.TextBox16.Name = "TextBox16"
         Me.TextBox16.Size = New System.Drawing.Size(35, 20)
         Me.TextBox16.TabIndex = 725
@@ -1692,7 +1871,7 @@ Partial Class Curriculum_Form
         Me.TextBox15.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox15.Enabled = False
         Me.TextBox15.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox15.Location = New System.Drawing.Point(436, 74)
+        Me.TextBox15.Location = New System.Drawing.Point(436, 78)
         Me.TextBox15.Name = "TextBox15"
         Me.TextBox15.Size = New System.Drawing.Size(35, 20)
         Me.TextBox15.TabIndex = 724
@@ -1703,7 +1882,7 @@ Partial Class Curriculum_Form
         Me.TextBox14.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox14.Enabled = False
         Me.TextBox14.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox14.Location = New System.Drawing.Point(436, 40)
+        Me.TextBox14.Location = New System.Drawing.Point(436, 45)
         Me.TextBox14.Name = "TextBox14"
         Me.TextBox14.Size = New System.Drawing.Size(35, 20)
         Me.TextBox14.TabIndex = 723
@@ -1714,7 +1893,7 @@ Partial Class Curriculum_Form
         Me.TextBox37.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox37.Enabled = False
         Me.TextBox37.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox37.Location = New System.Drawing.Point(161, 244)
+        Me.TextBox37.Location = New System.Drawing.Point(159, 243)
         Me.TextBox37.Name = "TextBox37"
         Me.TextBox37.Size = New System.Drawing.Size(35, 20)
         Me.TextBox37.TabIndex = 713
@@ -1725,7 +1904,7 @@ Partial Class Curriculum_Form
         Me.TextBox13.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox13.Enabled = False
         Me.TextBox13.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox13.Location = New System.Drawing.Point(436, 6)
+        Me.TextBox13.Location = New System.Drawing.Point(436, 12)
         Me.TextBox13.Name = "TextBox13"
         Me.TextBox13.Size = New System.Drawing.Size(35, 20)
         Me.TextBox13.TabIndex = 722
@@ -1736,7 +1915,7 @@ Partial Class Curriculum_Form
         Me.TextBox38.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox38.Enabled = False
         Me.TextBox38.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox38.Location = New System.Drawing.Point(394, 6)
+        Me.TextBox38.Location = New System.Drawing.Point(394, 12)
         Me.TextBox38.Name = "TextBox38"
         Me.TextBox38.Size = New System.Drawing.Size(35, 20)
         Me.TextBox38.TabIndex = 714
@@ -1759,7 +1938,7 @@ Partial Class Curriculum_Form
         Me.TextBox12.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox12.Enabled = False
         Me.TextBox12.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox12.Location = New System.Drawing.Point(202, 244)
+        Me.TextBox12.Location = New System.Drawing.Point(200, 243)
         Me.TextBox12.Name = "TextBox12"
         Me.TextBox12.Size = New System.Drawing.Size(35, 20)
         Me.TextBox12.TabIndex = 708
@@ -1781,7 +1960,7 @@ Partial Class Curriculum_Form
         Me.TextBox43.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox43.Enabled = False
         Me.TextBox43.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox43.Location = New System.Drawing.Point(394, 176)
+        Me.TextBox43.Location = New System.Drawing.Point(394, 177)
         Me.TextBox43.Name = "TextBox43"
         Me.TextBox43.Size = New System.Drawing.Size(35, 20)
         Me.TextBox43.TabIndex = 732
@@ -1792,7 +1971,7 @@ Partial Class Curriculum_Form
         Me.TextBox42.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox42.Enabled = False
         Me.TextBox42.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox42.Location = New System.Drawing.Point(394, 142)
+        Me.TextBox42.Location = New System.Drawing.Point(394, 144)
         Me.TextBox42.Name = "TextBox42"
         Me.TextBox42.Size = New System.Drawing.Size(35, 20)
         Me.TextBox42.TabIndex = 731
@@ -1803,7 +1982,7 @@ Partial Class Curriculum_Form
         Me.TextBox41.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox41.Enabled = False
         Me.TextBox41.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox41.Location = New System.Drawing.Point(394, 108)
+        Me.TextBox41.Location = New System.Drawing.Point(394, 111)
         Me.TextBox41.Name = "TextBox41"
         Me.TextBox41.Size = New System.Drawing.Size(35, 20)
         Me.TextBox41.TabIndex = 730
@@ -1814,7 +1993,7 @@ Partial Class Curriculum_Form
         Me.TextBox40.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox40.Enabled = False
         Me.TextBox40.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox40.Location = New System.Drawing.Point(394, 74)
+        Me.TextBox40.Location = New System.Drawing.Point(394, 78)
         Me.TextBox40.Name = "TextBox40"
         Me.TextBox40.Size = New System.Drawing.Size(35, 20)
         Me.TextBox40.TabIndex = 729
@@ -1825,214 +2004,59 @@ Partial Class Curriculum_Form
         Me.TextBox39.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox39.Enabled = False
         Me.TextBox39.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox39.Location = New System.Drawing.Point(394, 40)
+        Me.TextBox39.Location = New System.Drawing.Point(394, 45)
         Me.TextBox39.Name = "TextBox39"
         Me.TextBox39.Size = New System.Drawing.Size(35, 20)
         Me.TextBox39.TabIndex = 734
         Me.TextBox39.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox49
-        '
-        Me.TextBox49.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox49.Enabled = False
-        Me.TextBox49.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox49.Location = New System.Drawing.Point(161, 74)
-        Me.TextBox49.Name = "TextBox49"
-        Me.TextBox49.Size = New System.Drawing.Size(35, 20)
-        Me.TextBox49.TabIndex = 752
-        Me.TextBox49.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox47
-        '
-        Me.TextBox47.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox47.Enabled = False
-        Me.TextBox47.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox47.Location = New System.Drawing.Point(161, 6)
-        Me.TextBox47.Name = "TextBox47"
-        Me.TextBox47.Size = New System.Drawing.Size(35, 20)
-        Me.TextBox47.TabIndex = 757
-        Me.TextBox47.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox51
-        '
-        Me.TextBox51.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox51.Enabled = False
-        Me.TextBox51.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox51.Location = New System.Drawing.Point(161, 142)
-        Me.TextBox51.Name = "TextBox51"
-        Me.TextBox51.Size = New System.Drawing.Size(35, 20)
-        Me.TextBox51.TabIndex = 754
-        Me.TextBox51.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox52
-        '
-        Me.TextBox52.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox52.Enabled = False
-        Me.TextBox52.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox52.Location = New System.Drawing.Point(161, 176)
-        Me.TextBox52.Name = "TextBox52"
-        Me.TextBox52.Size = New System.Drawing.Size(35, 20)
-        Me.TextBox52.TabIndex = 755
-        Me.TextBox52.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox26
-        '
-        Me.TextBox26.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox26.Enabled = False
-        Me.TextBox26.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox26.Location = New System.Drawing.Point(202, 210)
-        Me.TextBox26.Name = "TextBox26"
-        Me.TextBox26.Size = New System.Drawing.Size(35, 20)
-        Me.TextBox26.TabIndex = 751
-        Me.TextBox26.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox24
-        '
-        Me.TextBox24.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox24.Enabled = False
-        Me.TextBox24.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox24.Location = New System.Drawing.Point(202, 142)
-        Me.TextBox24.Name = "TextBox24"
-        Me.TextBox24.Size = New System.Drawing.Size(35, 20)
-        Me.TextBox24.TabIndex = 749
-        Me.TextBox24.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox25
-        '
-        Me.TextBox25.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox25.Enabled = False
-        Me.TextBox25.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox25.Location = New System.Drawing.Point(202, 176)
-        Me.TextBox25.Name = "TextBox25"
-        Me.TextBox25.Size = New System.Drawing.Size(35, 20)
-        Me.TextBox25.TabIndex = 750
-        Me.TextBox25.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox53
-        '
-        Me.TextBox53.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox53.Enabled = False
-        Me.TextBox53.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox53.Location = New System.Drawing.Point(161, 210)
-        Me.TextBox53.Name = "TextBox53"
-        Me.TextBox53.Size = New System.Drawing.Size(35, 20)
-        Me.TextBox53.TabIndex = 746
-        Me.TextBox53.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox48
-        '
-        Me.TextBox48.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox48.Enabled = False
-        Me.TextBox48.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox48.Location = New System.Drawing.Point(160, 40)
-        Me.TextBox48.Name = "TextBox48"
-        Me.TextBox48.Size = New System.Drawing.Size(35, 20)
-        Me.TextBox48.TabIndex = 756
-        Me.TextBox48.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.TextBox48.WordWrap = False
-        '
-        'TextBox33
-        '
-        Me.TextBox33.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox33.Enabled = False
-        Me.TextBox33.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox33.Location = New System.Drawing.Point(161, 107)
-        Me.TextBox33.Name = "TextBox33"
-        Me.TextBox33.Size = New System.Drawing.Size(35, 20)
-        Me.TextBox33.TabIndex = 778
-        Me.TextBox33.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox8
-        '
-        Me.TextBox8.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox8.Enabled = False
-        Me.TextBox8.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox8.Location = New System.Drawing.Point(202, 107)
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(35, 20)
-        Me.TextBox8.TabIndex = 777
-        Me.TextBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox20
-        '
-        Me.TextBox20.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox20.Enabled = False
-        Me.TextBox20.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox20.Location = New System.Drawing.Point(202, 6)
-        Me.TextBox20.Name = "TextBox20"
-        Me.TextBox20.Size = New System.Drawing.Size(35, 20)
-        Me.TextBox20.TabIndex = 758
-        Me.TextBox20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox21
-        '
-        Me.TextBox21.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox21.Enabled = False
-        Me.TextBox21.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox21.Location = New System.Drawing.Point(202, 40)
-        Me.TextBox21.Name = "TextBox21"
-        Me.TextBox21.Size = New System.Drawing.Size(35, 20)
-        Me.TextBox21.TabIndex = 759
-        Me.TextBox21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox22
-        '
-        Me.TextBox22.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox22.Enabled = False
-        Me.TextBox22.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox22.Location = New System.Drawing.Point(202, 74)
-        Me.TextBox22.Name = "TextBox22"
-        Me.TextBox22.Size = New System.Drawing.Size(35, 20)
-        Me.TextBox22.TabIndex = 747
-        Me.TextBox22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
         'CoreSubject
         '
-        Me.CoreSubject.Controls.Add(Me.TextBox47)
         Me.CoreSubject.Controls.Add(Me.TextBox17)
+        Me.CoreSubject.Controls.Add(Me.CheckBox1)
+        Me.CoreSubject.Controls.Add(Me.TextBox32)
         Me.CoreSubject.Controls.Add(Me.TextBox18)
-        Me.CoreSubject.Controls.Add(Me.CheckBox16)
+        Me.CoreSubject.Controls.Add(Me.TextBox34)
         Me.CoreSubject.Controls.Add(Me.TextBox16)
-        Me.CoreSubject.Controls.Add(Me.TextBox22)
         Me.CoreSubject.Controls.Add(Me.TextBox15)
-        Me.CoreSubject.Controls.Add(Me.TextBox21)
+        Me.CoreSubject.Controls.Add(Me.TextBox35)
         Me.CoreSubject.Controls.Add(Me.TextBox14)
         Me.CoreSubject.Controls.Add(Me.TextBox37)
-        Me.CoreSubject.Controls.Add(Me.TextBox20)
+        Me.CoreSubject.Controls.Add(Me.TextBox36)
         Me.CoreSubject.Controls.Add(Me.TextBox13)
-        Me.CoreSubject.Controls.Add(Me.TextBox8)
+        Me.CoreSubject.Controls.Add(Me.TextBox7)
         Me.CoreSubject.Controls.Add(Me.TextBox38)
-        Me.CoreSubject.Controls.Add(Me.CheckBox18)
         Me.CoreSubject.Controls.Add(Me.TextBox19)
-        Me.CoreSubject.Controls.Add(Me.CheckBox17)
+        Me.CoreSubject.Controls.Add(Me.TextBox11)
         Me.CoreSubject.Controls.Add(Me.TextBox12)
-        Me.CoreSubject.Controls.Add(Me.TextBox33)
+        Me.CoreSubject.Controls.Add(Me.TextBox6)
         Me.CoreSubject.Controls.Add(Me.TextBox44)
-        Me.CoreSubject.Controls.Add(Me.TextBox48)
+        Me.CoreSubject.Controls.Add(Me.TextBox10)
         Me.CoreSubject.Controls.Add(Me.TextBox43)
-        Me.CoreSubject.Controls.Add(Me.CheckBox20)
         Me.CoreSubject.Controls.Add(Me.TextBox42)
+        Me.CoreSubject.Controls.Add(Me.TextBox31)
         Me.CoreSubject.Controls.Add(Me.TextBox41)
-        Me.CoreSubject.Controls.Add(Me.CheckBox21)
+        Me.CoreSubject.Controls.Add(Me.TextBox9)
         Me.CoreSubject.Controls.Add(Me.CheckBox13)
-        Me.CoreSubject.Controls.Add(Me.CheckBox22)
         Me.CoreSubject.Controls.Add(Me.TextBox40)
+        Me.CoreSubject.Controls.Add(Me.TextBox30)
         Me.CoreSubject.Controls.Add(Me.CheckBox12)
-        Me.CoreSubject.Controls.Add(Me.CheckBox19)
+        Me.CoreSubject.Controls.Add(Me.TextBox5)
         Me.CoreSubject.Controls.Add(Me.TextBox39)
         Me.CoreSubject.Controls.Add(Me.CheckBox11)
-        Me.CoreSubject.Controls.Add(Me.TextBox53)
+        Me.CoreSubject.Controls.Add(Me.CheckBox5)
         Me.CoreSubject.Controls.Add(Me.CheckBox10)
+        Me.CoreSubject.Controls.Add(Me.TextBox23)
         Me.CoreSubject.Controls.Add(Me.CheckBox14)
-        Me.CoreSubject.Controls.Add(Me.TextBox25)
         Me.CoreSubject.Controls.Add(Me.CheckBox15)
+        Me.CoreSubject.Controls.Add(Me.CheckBox7)
         Me.CoreSubject.Controls.Add(Me.CheckBox8)
-        Me.CoreSubject.Controls.Add(Me.TextBox24)
-        Me.CoreSubject.Controls.Add(Me.TextBox49)
-        Me.CoreSubject.Controls.Add(Me.TextBox51)
+        Me.CoreSubject.Controls.Add(Me.CheckBox6)
         Me.CoreSubject.Controls.Add(Me.CheckBox9)
-        Me.CoreSubject.Controls.Add(Me.TextBox52)
-        Me.CoreSubject.Controls.Add(Me.TextBox26)
+        Me.CoreSubject.Controls.Add(Me.TextBox50)
+        Me.CoreSubject.Controls.Add(Me.CheckBox4)
+        Me.CoreSubject.Controls.Add(Me.CheckBox3)
+        Me.CoreSubject.Controls.Add(Me.CheckBox2)
         Me.CoreSubject.Location = New System.Drawing.Point(431, 353)
         Me.CoreSubject.Name = "CoreSubject"
         Me.CoreSubject.Size = New System.Drawing.Size(503, 276)
@@ -2051,7 +2075,7 @@ Partial Class Curriculum_Form
         Me.MajorElectrical.Controls.Add(Me.TextBox62)
         Me.MajorElectrical.Controls.Add(Me.TextBox65)
         Me.MajorElectrical.Controls.Add(Me.TextBox66)
-        Me.MajorElectrical.Location = New System.Drawing.Point(241, 241)
+        Me.MajorElectrical.Location = New System.Drawing.Point(930, 55)
         Me.MajorElectrical.Name = "MajorElectrical"
         Me.MajorElectrical.Size = New System.Drawing.Size(461, 220)
         Me.MajorElectrical.TabIndex = 1561
@@ -2212,12 +2236,285 @@ Partial Class Curriculum_Form
         Me.TextBox66.TabIndex = 1009
         Me.TextBox66.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
+        'MajorBAP
+        '
+        Me.MajorBAP.Controls.Add(Me.CheckBox34)
+        Me.MajorBAP.Controls.Add(Me.Panel4)
+        Me.MajorBAP.Controls.Add(Me.CheckBox35)
+        Me.MajorBAP.Controls.Add(Me.TextBox69)
+        Me.MajorBAP.Controls.Add(Me.TextBox70)
+        Me.MajorBAP.Controls.Add(Me.CheckBox36)
+        Me.MajorBAP.Controls.Add(Me.TextBox71)
+        Me.MajorBAP.Controls.Add(Me.TextBox72)
+        Me.MajorBAP.Controls.Add(Me.CheckBox37)
+        Me.MajorBAP.Controls.Add(Me.TextBox73)
+        Me.MajorBAP.Controls.Add(Me.TextBox74)
+        Me.MajorBAP.Controls.Add(Me.CheckBox38)
+        Me.MajorBAP.Controls.Add(Me.TextBox75)
+        Me.MajorBAP.Controls.Add(Me.TextBox76)
+        Me.MajorBAP.Location = New System.Drawing.Point(933, 55)
+        Me.MajorBAP.Name = "MajorBAP"
+        Me.MajorBAP.Size = New System.Drawing.Size(506, 270)
+        Me.MajorBAP.TabIndex = 1562
+        Me.MajorBAP.Visible = False
+        '
+        'CheckBox34
+        '
+        Me.CheckBox34.AutoSize = True
+        Me.CheckBox34.BackColor = System.Drawing.Color.DarkSlateGray
+        Me.CheckBox34.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.CheckBox34.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox34.ForeColor = System.Drawing.Color.White
+        Me.CheckBox34.Location = New System.Drawing.Point(6, 132)
+        Me.CheckBox34.Name = "CheckBox34"
+        Me.CheckBox34.Size = New System.Drawing.Size(117, 29)
+        Me.CheckBox34.TabIndex = 1813
+        Me.CheckBox34.Text = "Immersion"
+        Me.ToolTip1.SetToolTip(Me.CheckBox34, "Work Immersion")
+        Me.CheckBox34.UseVisualStyleBackColor = False
+        '
+        'Panel4
+        '
+        Me.Panel4.Controls.Add(Me.Label23)
+        Me.Panel4.Controls.Add(Me.Label24)
+        Me.Panel4.Controls.Add(Me.Label25)
+        Me.Panel4.Controls.Add(Me.DateTimePicker5)
+        Me.Panel4.Controls.Add(Me.DateTimePicker6)
+        Me.Panel4.Controls.Add(Me.TextBox67)
+        Me.Panel4.Controls.Add(Me.TextBox68)
+        Me.Panel4.Location = New System.Drawing.Point(116, 132)
+        Me.Panel4.Name = "Panel4"
+        Me.Panel4.Size = New System.Drawing.Size(301, 0)
+        Me.Panel4.TabIndex = 1814
+        '
+        'Label23
+        '
+        Me.Label23.AutoSize = True
+        Me.Label23.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label23.ForeColor = System.Drawing.Color.White
+        Me.Label23.Location = New System.Drawing.Point(199, 1)
+        Me.Label23.Name = "Label23"
+        Me.Label23.Size = New System.Drawing.Size(91, 34)
+        Me.Label23.TabIndex = 1808
+        Me.Label23.Text = " No. of   Final" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Hours   Grade"
+        '
+        'Label24
+        '
+        Me.Label24.AutoSize = True
+        Me.Label24.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label24.ForeColor = System.Drawing.Color.White
+        Me.Label24.Location = New System.Drawing.Point(22, 46)
+        Me.Label24.Name = "Label24"
+        Me.Label24.Size = New System.Drawing.Size(33, 17)
+        Me.Label24.TabIndex = 1807
+        Me.Label24.Text = "End:"
+        '
+        'Label25
+        '
+        Me.Label25.AutoSize = True
+        Me.Label25.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label25.ForeColor = System.Drawing.Color.White
+        Me.Label25.Location = New System.Drawing.Point(18, 15)
+        Me.Label25.Name = "Label25"
+        Me.Label25.Size = New System.Drawing.Size(38, 17)
+        Me.Label25.TabIndex = 1806
+        Me.Label25.Text = "Start:"
+        '
+        'DateTimePicker5
+        '
+        Me.DateTimePicker5.CalendarMonthBackground = System.Drawing.Color.DarkSlateGray
+        Me.DateTimePicker5.Font = New System.Drawing.Font("Segoe UI", 11.0!)
+        Me.DateTimePicker5.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker5.Location = New System.Drawing.Point(62, 8)
+        Me.DateTimePicker5.Name = "DateTimePicker5"
+        Me.DateTimePicker5.Size = New System.Drawing.Size(118, 27)
+        Me.DateTimePicker5.TabIndex = 93
+        Me.DateTimePicker5.Value = New Date(2018, 12, 18, 0, 0, 0, 0)
+        '
+        'DateTimePicker6
+        '
+        Me.DateTimePicker6.CalendarMonthBackground = System.Drawing.Color.DarkSlateGray
+        Me.DateTimePicker6.Font = New System.Drawing.Font("Segoe UI", 11.0!)
+        Me.DateTimePicker6.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker6.Location = New System.Drawing.Point(62, 41)
+        Me.DateTimePicker6.Name = "DateTimePicker6"
+        Me.DateTimePicker6.Size = New System.Drawing.Size(118, 27)
+        Me.DateTimePicker6.TabIndex = 94
+        Me.DateTimePicker6.Value = New Date(2019, 12, 31, 0, 0, 0, 0)
+        '
+        'TextBox67
+        '
+        Me.TextBox67.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox67.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox67.Location = New System.Drawing.Point(203, 44)
+        Me.TextBox67.Name = "TextBox67"
+        Me.TextBox67.Size = New System.Drawing.Size(35, 20)
+        Me.TextBox67.TabIndex = 1746
+        Me.TextBox67.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox68
+        '
+        Me.TextBox68.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox68.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox68.Location = New System.Drawing.Point(251, 44)
+        Me.TextBox68.Name = "TextBox68"
+        Me.TextBox68.Size = New System.Drawing.Size(35, 20)
+        Me.TextBox68.TabIndex = 1747
+        Me.TextBox68.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'CheckBox35
+        '
+        Me.CheckBox35.AutoSize = True
+        Me.CheckBox35.BackColor = System.Drawing.Color.DarkSlateGray
+        Me.CheckBox35.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.CheckBox35.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox35.ForeColor = System.Drawing.Color.White
+        Me.CheckBox35.Location = New System.Drawing.Point(8, 8)
+        Me.CheckBox35.Name = "CheckBox35"
+        Me.CheckBox35.Size = New System.Drawing.Size(112, 29)
+        Me.CheckBox35.TabIndex = 1483
+        Me.CheckBox35.Text = "B and P. P"
+        Me.CheckBox35.UseVisualStyleBackColor = False
+        '
+        'TextBox69
+        '
+        Me.TextBox69.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox69.Enabled = False
+        Me.TextBox69.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox69.Location = New System.Drawing.Point(206, 13)
+        Me.TextBox69.Name = "TextBox69"
+        Me.TextBox69.Size = New System.Drawing.Size(35, 20)
+        Me.TextBox69.TabIndex = 1486
+        Me.TextBox69.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox70
+        '
+        Me.TextBox70.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox70.Enabled = False
+        Me.TextBox70.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox70.Location = New System.Drawing.Point(165, 13)
+        Me.TextBox70.Name = "TextBox70"
+        Me.TextBox70.Size = New System.Drawing.Size(35, 20)
+        Me.TextBox70.TabIndex = 1488
+        Me.TextBox70.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'CheckBox36
+        '
+        Me.CheckBox36.AutoSize = True
+        Me.CheckBox36.BackColor = System.Drawing.Color.DarkSlateGray
+        Me.CheckBox36.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.CheckBox36.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox36.ForeColor = System.Drawing.Color.White
+        Me.CheckBox36.Location = New System.Drawing.Point(8, 37)
+        Me.CheckBox36.Name = "CheckBox36"
+        Me.CheckBox36.Size = New System.Drawing.Size(97, 29)
+        Me.CheckBox36.TabIndex = 1482
+        Me.CheckBox36.Text = "Cookery"
+        Me.CheckBox36.UseVisualStyleBackColor = False
+        '
+        'TextBox71
+        '
+        Me.TextBox71.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox71.Enabled = False
+        Me.TextBox71.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox71.Location = New System.Drawing.Point(205, 42)
+        Me.TextBox71.Name = "TextBox71"
+        Me.TextBox71.Size = New System.Drawing.Size(35, 20)
+        Me.TextBox71.TabIndex = 1487
+        Me.TextBox71.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox72
+        '
+        Me.TextBox72.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox72.Enabled = False
+        Me.TextBox72.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox72.Location = New System.Drawing.Point(165, 42)
+        Me.TextBox72.Name = "TextBox72"
+        Me.TextBox72.Size = New System.Drawing.Size(35, 20)
+        Me.TextBox72.TabIndex = 1489
+        Me.TextBox72.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'CheckBox37
+        '
+        Me.CheckBox37.AutoSize = True
+        Me.CheckBox37.BackColor = System.Drawing.Color.DarkSlateGray
+        Me.CheckBox37.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.CheckBox37.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox37.ForeColor = System.Drawing.Color.White
+        Me.CheckBox37.Location = New System.Drawing.Point(8, 66)
+        Me.CheckBox37.Name = "CheckBox37"
+        Me.CheckBox37.Size = New System.Drawing.Size(109, 29)
+        Me.CheckBox37.TabIndex = 1481
+        Me.CheckBox37.Text = "F and B. S"
+        Me.CheckBox37.UseVisualStyleBackColor = False
+        '
+        'TextBox73
+        '
+        Me.TextBox73.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox73.Enabled = False
+        Me.TextBox73.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox73.Location = New System.Drawing.Point(165, 71)
+        Me.TextBox73.Name = "TextBox73"
+        Me.TextBox73.Size = New System.Drawing.Size(35, 20)
+        Me.TextBox73.TabIndex = 1484
+        Me.TextBox73.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox74
+        '
+        Me.TextBox74.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox74.Enabled = False
+        Me.TextBox74.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox74.Location = New System.Drawing.Point(205, 71)
+        Me.TextBox74.Name = "TextBox74"
+        Me.TextBox74.Size = New System.Drawing.Size(35, 20)
+        Me.TextBox74.TabIndex = 1485
+        Me.TextBox74.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'CheckBox38
+        '
+        Me.CheckBox38.AutoSize = True
+        Me.CheckBox38.BackColor = System.Drawing.Color.DarkSlateGray
+        Me.CheckBox38.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.CheckBox38.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox38.ForeColor = System.Drawing.Color.White
+        Me.CheckBox38.Location = New System.Drawing.Point(8, 95)
+        Me.CheckBox38.Name = "CheckBox38"
+        Me.CheckBox38.Size = New System.Drawing.Size(146, 29)
+        Me.CheckBox38.TabIndex = 1556
+        Me.CheckBox38.Text = "Com. Cooking"
+        Me.CheckBox38.UseVisualStyleBackColor = False
+        '
+        'TextBox75
+        '
+        Me.TextBox75.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox75.Enabled = False
+        Me.TextBox75.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox75.Location = New System.Drawing.Point(165, 100)
+        Me.TextBox75.Name = "TextBox75"
+        Me.TextBox75.Size = New System.Drawing.Size(35, 20)
+        Me.TextBox75.TabIndex = 1558
+        Me.TextBox75.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox76
+        '
+        Me.TextBox76.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox76.Enabled = False
+        Me.TextBox76.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox76.Location = New System.Drawing.Point(205, 100)
+        Me.TextBox76.Name = "TextBox76"
+        Me.TextBox76.Size = New System.Drawing.Size(35, 20)
+        Me.TextBox76.TabIndex = 1499
+        Me.TextBox76.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
         'Curriculum_Form
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DarkSlateGray
-        Me.ClientSize = New System.Drawing.Size(943, 703)
+        Me.ClientSize = New System.Drawing.Size(1444, 703)
+        Me.Controls.Add(Me.MajorBAP)
+        Me.Controls.Add(Me.MajorElectrical)
+        Me.Controls.Add(Me.MajorICT)
         Me.Controls.Add(Me.AppliedSubjects)
         Me.Controls.Add(Me.CoreSubject)
         Me.Controls.Add(Me.RadioButton4)
@@ -2255,8 +2552,6 @@ Partial Class Curriculum_Form
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.MajorICT)
-        Me.Controls.Add(Me.MajorElectrical)
         Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ForeColor = System.Drawing.SystemColors.ButtonFace
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
@@ -2278,6 +2573,10 @@ Partial Class Curriculum_Form
         Me.MajorElectrical.PerformLayout()
         Me.Panel3.ResumeLayout(False)
         Me.Panel3.PerformLayout()
+        Me.MajorBAP.ResumeLayout(False)
+        Me.MajorBAP.PerformLayout()
+        Me.Panel4.ResumeLayout(False)
+        Me.Panel4.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -2440,4 +2739,26 @@ Partial Class Curriculum_Form
     Friend WithEvents TextBox62 As TextBox
     Friend WithEvents TextBox65 As TextBox
     Friend WithEvents TextBox66 As TextBox
+    Friend WithEvents MajorBAP As Panel
+    Friend WithEvents CheckBox34 As CheckBox
+    Friend WithEvents Panel4 As Panel
+    Friend WithEvents Label23 As Label
+    Friend WithEvents Label24 As Label
+    Friend WithEvents Label25 As Label
+    Friend WithEvents DateTimePicker5 As DateTimePicker
+    Friend WithEvents DateTimePicker6 As DateTimePicker
+    Friend WithEvents TextBox67 As TextBox
+    Friend WithEvents TextBox68 As TextBox
+    Friend WithEvents CheckBox35 As CheckBox
+    Friend WithEvents TextBox69 As TextBox
+    Friend WithEvents TextBox70 As TextBox
+    Friend WithEvents CheckBox36 As CheckBox
+    Friend WithEvents TextBox71 As TextBox
+    Friend WithEvents TextBox72 As TextBox
+    Friend WithEvents CheckBox37 As CheckBox
+    Friend WithEvents TextBox73 As TextBox
+    Friend WithEvents TextBox74 As TextBox
+    Friend WithEvents CheckBox38 As CheckBox
+    Friend WithEvents TextBox75 As TextBox
+    Friend WithEvents TextBox76 As TextBox
 End Class

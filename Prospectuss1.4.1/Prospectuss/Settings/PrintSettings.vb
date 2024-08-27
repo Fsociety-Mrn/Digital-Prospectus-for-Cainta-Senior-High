@@ -48,14 +48,14 @@ Public Class PrintSettings
         If checkBox.Checked Then
             For i As Integer = 0 To 1
                 If Not String.IsNullOrEmpty(values(i)) Then
-                    e.Graphics.DrawString(values(i), font1, Brushes.Black, positions(i), yPos)
+                    e.Graphics.DrawString(values(i), font1, Brushes.Black, positions(i), yPos + plus)
                 End If
             Next
 
             If Not String.IsNullOrEmpty(textBox1.Text) AndAlso Not String.IsNullOrEmpty(textBox2.Text) Then
                 Dim avg As Integer = (CInt(textBox1.Text) + CInt(textBox2.Text)) / 2
                 e.Graphics.DrawString("               T   A    K    E    N", font1, Brushes.Black, 405, yPos + plus)
-                e.Graphics.DrawString(avg, font1, Brushes.Black, 755, yPos)
+                e.Graphics.DrawString(avg, font1, Brushes.Black, 755, yPos + plus)
             End If
         End If
     End Sub

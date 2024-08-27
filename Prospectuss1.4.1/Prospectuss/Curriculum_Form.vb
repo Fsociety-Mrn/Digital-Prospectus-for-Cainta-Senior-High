@@ -19,8 +19,8 @@ Public Class Curriculum_Form
                 Major = MajorICT
                 Major_Curriculum = {
                     (CheckBox23, TextBox27, TextBox54, "   • Computer Programming (Oracle)", 980, 0),
-                    (CheckBox24, TextBox28, TextBox55, "  • Computer Programming (.Net)", 1000, 0),
-                    (CheckBox25, TextBox29, TextBox56, "  • Computer Programming (Java)", 1020, 0),
+                    (CheckBox24, TextBox28, TextBox55, "   • Computer Programming (.Net)", 1000, 0),
+                    (CheckBox25, TextBox29, TextBox56, "   • Computer Programming (Java)", 1020, 0),
                     (CheckBox26, TextBox45, TextBox46, "   • Animation", 1040, 0),
                     (CheckBox26, TextBox58, TextBox57, "   • Computer Systems Servicing", 1060, 0),
                     (CheckBox27, TextBox60, TextBox59, "   • Broadband Installation" + vbNewLine + "     (Fixed Wireless Systems)", 1080, 20)
@@ -28,6 +28,19 @@ Public Class Curriculum_Form
 
             Case "ELECT"
                 Major = MajorElectrical
+                Major_Curriculum = {
+                    (CheckBox31, TextBox65, TextBox61, "  • Electrical Instalation " + vbNewLine + "      and Maintenance (NC II)", 980, 20),
+                    (CheckBox33, TextBox62, TextBox4, "  • Electric Power Distrubution " + vbNewLine + "      Line Construction (NC II)", 1020, 20),
+                    (CheckBox32, TextBox66, TextBox3, "  • Electronic Products Assembly " + vbNewLine + "      and Servicing (NC II)", 1060, 20)
+                }
+            Case "BAP"
+                Major = MajorBAP
+                Major_Curriculum = {
+                    (CheckBox35, TextBox70, TextBox69, "   • Bread and Pastry Production (NC2)", 980, 20),
+                    (CheckBox36, TextBox72, TextBox71, "   • Cookery (NC2)", 1000, 20),
+                    (CheckBox37, TextBox73, TextBox74, "   • Food and Beverages Services", 1020, 20),
+                    (CheckBox38, TextBox75, TextBox76, "   • Commercial Cooking (NC2)", 1040, 20)
+                }
 
         End Select
     End Sub
@@ -40,7 +53,7 @@ Public Class Curriculum_Form
         AppliedSubjects.Location = New Point(431, 353)
 
         Label1.Text = MyLabel
-
+        Me.Width = 943
     End Sub
 
     '' Button to show all subjects
@@ -330,7 +343,7 @@ Public Class Curriculum_Form
         printSettings.DrawRadioButtonSelection(e, StudentStatus, font1, School)
 
         '' print date
-        e.Graphics.DrawString("DATE: " + Date.Now.ToString("MM/dd/yyyy") + vbNewLine + "TVL - ICT", font2, Brushes.Black, 660, 90)
+        e.Graphics.DrawString("DATE: " + Date.Now.ToString("MM/dd/yyyy") + vbNewLine + "TVL - " + Parameter, font2, Brushes.Black, 660, 90)
         e.Graphics.DrawString("Region : " + ComboBox1.Text, font1, Brushes.Black, 70, 150)
 
         '' Print header Core Curriculum
@@ -351,8 +364,8 @@ Public Class Curriculum_Form
             (CheckBox11, TextBox15, TextBox40, "  • Physical Science", 400, 0),
             (CheckBox13, TextBox17, TextBox42, "  • Personal Development", 420, 0),
             (CheckBox15, TextBox19, TextBox44, "  • Media and Information Literacy", 440, 0),
-            (CheckBox3, TextBox5, TextBox30, "  • Komunikasyon at Pananaliksik sa" + vbNewLine + "      Wika at  Kulturang Pilipino", 460, 20),
-            (CheckBox4, TextBox8, TextBox33, "  • Pagbasa at Pagsusuri ng imba't iba't " + vbNewLine + "      ibang Teksto Tungo sa Panaliksisk", 500, 20),
+            (CheckBox3, TextBox32, TextBox7, "  • Komunikasyon at Pananaliksik sa" + vbNewLine + "      Wika at  Kulturang Pilipino", 460, 20),
+            (CheckBox4, TextBox50, TextBox23, "  • Pagbasa at Pagsusuri ng imba't iba't " + vbNewLine + "      ibang Teksto Tungo sa Panaliksisk", 500, 20),
             (CheckBox5, TextBox9, TextBox34, "  • 21st Century Literature " + vbNewLine + "       Fr. Phil to World", 540, 20),
             (CheckBox6, TextBox10, TextBox35, "  • Contemporary Philippine Arts" + vbNewLine + "       from the Regions", 580, 20),
             (CheckBox12, TextBox16, TextBox41, "  • Introduction to Philosopy" + vbNewLine + "      of the Human Person", 620, 20),
@@ -375,7 +388,7 @@ Public Class Curriculum_Form
             (CheckBox16, TextBox20, TextBox47, "  • English for Academic Purposes", 770, 0),
             (CheckBox17, TextBox21, TextBox48, "  • Practical Research 1", 790, 0),
             (CheckBox18, TextBox22, TextBox49, "  • Practical Research 2", 810, 0),
-            (CheckBox19, TextBox23, TextBox50, "  • Filipino sa Piling Larang", 830, 0),
+            (CheckBox19, TextBox33, TextBox8, "  • Filipino sa Piling Larang", 830, 0),
             (CheckBox20, TextBox24, TextBox51, "  • Empowerment Technologies", 850, 0),
             (CheckBox21, TextBox25, TextBox52, "  • Entrepreneurship", 870, 0),
             (CheckBox22, TextBox26, TextBox53, "  • Inquiries, Investigations and Immersion", 890, 0)
@@ -448,5 +461,10 @@ Public Class Curriculum_Form
     Private Sub RadioButton4_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton4.CheckedChanged, RadioButton3.CheckedChanged, RadioButton1.CheckedChanged
         School.Enabled = True
         School.Text = " PLEASE  DO NOT ABBREVIATE THE NAME OF YOUR SCHOOL"
+    End Sub
+
+
+    Private Sub CheckBox35_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox38.CheckedChanged, CheckBox37.CheckedChanged, CheckBox36.CheckedChanged, CheckBox35.CheckedChanged
+
     End Sub
 End Class

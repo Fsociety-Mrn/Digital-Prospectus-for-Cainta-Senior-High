@@ -387,7 +387,7 @@ Partial Class Bap
         Me.Button10.Name = "Button10"
         Me.Button10.Size = New System.Drawing.Size(519, 59)
         Me.Button10.TabIndex = 903
-        Me.Button10.Text = "          Please check the  box if you already take the subjects and put the grad" & _
+        Me.Button10.Text = "          Please check the  box if you already take the subjects and put the grad" &
     "es on the box provided"
         Me.Button10.UseVisualStyleBackColor = False
         '
@@ -629,7 +629,7 @@ Partial Class Bap
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(958, 30)
         Me.Label12.TabIndex = 910
-        Me.Label12.Text = "_________________________________________________________________________________" & _
+        Me.Label12.Text = "_________________________________________________________________________________" &
     "________________________"
         '
         'PrintPreviewDialog1
@@ -1626,7 +1626,7 @@ Partial Class Bap
         Me.Panel2.Controls.Add(Me.CheckBox26)
         Me.Panel2.Controls.Add(Me.TextBox45)
         Me.Panel2.Controls.Add(Me.TextBox50)
-        Me.Panel2.Location = New System.Drawing.Point(425, 371)
+        Me.Panel2.Location = New System.Drawing.Point(277, 250)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(506, 270)
         Me.Panel2.TabIndex = 1559
@@ -1775,6 +1775,7 @@ Partial Class Bap
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DarkSlateGray
         Me.ClientSize = New System.Drawing.Size(943, 703)
+        Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.RadioButton3)
         Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.TextBox67)
@@ -1875,7 +1876,6 @@ Partial Class Bap
         Me.Controls.Add(Me.TextBox46)
         Me.Controls.Add(Me.TextBox33)
         Me.Controls.Add(Me.TextBox8)
-        Me.Controls.Add(Me.Panel2)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Bap"

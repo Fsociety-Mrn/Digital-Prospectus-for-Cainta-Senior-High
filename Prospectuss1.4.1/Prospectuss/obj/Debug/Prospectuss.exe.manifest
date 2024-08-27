@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Prospectuss.exe" size="7379968">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Prospectuss.exe" size="7387648">
       <assemblyIdentity name="Prospectuss" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>4vQTB9xuA/OgBYenFxW1fYiJrHPugb84skvsX6VBPis=</dsig:DigestValue>
+        <dsig:DigestValue>MQFep/qKDDd/9kEUGKN/cfauVoRPGwIg56k9l773cpQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -29,7 +29,18 @@ Public Class Settings
     End Sub
 
     '' Checkbox text
-    Public Sub HandleTextBoxState(checkbox As CheckBox, ParamArray textBoxes() As TextBox)
+    Public Sub HandleTextBoxState(sender As Object, mappings As Dictionary(Of String, Tuple(Of TextBox, TextBox)))
+        Dim checkbox As CheckBox = DirectCast(sender, CheckBox)
+        Dim checkboxName As String = checkbox.Name
+
+        ' Check if the current checkbox name exists in the dictionary
+        If mappings.ContainsKey(checkboxName) Then
+            Dim textBoxes = mappings(checkboxName)
+            HandleCheckBoxStateChange(checkbox, textBoxes.Item1, textBoxes.Item2)
+        End If
+    End Sub
+
+    Private Sub HandleCheckBoxStateChange(checkbox As CheckBox, ParamArray textBoxes() As TextBox)
         Dim isChecked As Boolean = checkbox.Checked
 
         For Each textBox As TextBox In textBoxes
@@ -37,5 +48,6 @@ Public Class Settings
             If Not isChecked Then textBox.Text = ""
         Next
     End Sub
+
 
 End Class
